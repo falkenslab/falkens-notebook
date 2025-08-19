@@ -46,6 +46,8 @@ La inteligencia artificial (IA) es un campo de la informática que se centra en 
 
 ## L
 
+### Langflow
+
 ### Large Language Model (LLM)
 
 Es un tipo de [modelo de lenguaje](#modelo-de-lenguaje) de gran escala (millones o miles de millones de parámetros) y entrenado con enormes cantidades de datos para manejar un rango muy amplio de tareas y contextos, capaz de entender y generar lenguaje humano.
