@@ -20,7 +20,8 @@
             <name>Fran Vargas</name>
             <uri>https://linkedin.com/in/fvarrui</uri>
         </author>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="Claude" term="Claude"/>
+        <category label="CLI" term="CLI"/>
+        <category label="Agente" term="Agente"/>
     </entry>
 </feed>
