@@ -83,7 +83,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Cuaderno',
+          label: 'Notas',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -100,7 +100,7 @@ const config: Config = {
           title: 'Cuaderno',
           items: [
             {
-              label: 'Cuaderno',
+              label: 'Notas',
               to: '/docs/intro',
             },
             {
@@ -116,14 +116,18 @@ const config: Config = {
               label: 'Hugging Face',
               href: 'https://huggingface.co/falkenslab',
             },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/falkenslab',
+            },
           ],
         },
         {
           title: 'Más',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/falkenslab',
+              label: '¿Quién es el Dr. Falken?',
+              href: 'https://en.wikipedia.org/wiki/WarGames',
             },
           ],
         },

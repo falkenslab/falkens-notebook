@@ -1,0 +1,10 @@
+{
+  "theme.blog.recentPosts": {
+    "message": "Entradas recientes",
+    "description": "Título de la página de listado de publicaciones del blog"
+  },
+  "theme.blog.post.recentPosts": {
+    "message": "Entradas recientes",
+    "description": "Título de la sección de entradas recientes en la página del blog"
+  }
+}
