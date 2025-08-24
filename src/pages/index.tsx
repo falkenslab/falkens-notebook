@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import {BookOpen, Newspaper} from 'lucide-react';
 
 import styles from './index.module.css';
 
@@ -17,11 +18,18 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+        <p className={styles.subtitleExtra}>
+          Ideas, conceptos y experimentos de IA aplicada para aprender,
+          compartir y construir en comunidad.
+        </p>
+        <div className={clsx(styles.buttons, styles.ctaGroup)}>
+          <Link className="button button--secondary button--lg" to="/docs/intro">
+            <BookOpen className={styles.ctaIcon} size={18} />
+            Explorar el Cuaderno
+          </Link>
+          <Link className={clsx('button button--outline button--lg', styles.ctaSecondary)} to="/blog">
+            <Newspaper className={styles.ctaIcon} size={18} />
+            Leer el Blog
           </Link>
         </div>
       </div>
@@ -33,8 +41,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={siteConfig.title}
+      description="Cuaderno de IA aplicada: ideas, experimentos, herramientas y resultados.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

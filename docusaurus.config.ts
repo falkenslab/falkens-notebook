@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/falkenslab/falkens-notebook/tree/main/',
+            'https://github.com/falkenslab/falkens-notebook/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +56,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/falkenslab/falkens-notebook/tree/main/',
+            'https://github.com/falkenslab/falkens-notebook/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -103,6 +103,10 @@ const config: Config = {
               label: 'Cuaderno',
               to: '/docs/intro',
             },
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
           ],
         },
         {
@@ -118,12 +122,8 @@ const config: Config = {
           title: 'Más',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/falkenslab/falkens-notebook',
+              href: 'https://github.com/falkenslab',
             },
           ],
         },

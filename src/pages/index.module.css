@@ -8,6 +8,10 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  /* Degradado naranja más oscuro */
+  background: linear-gradient(135deg, #9a3412 0%, #c2410c 45%, #ea580c 100%);
+  --ifm-hero-text-color: #ffffff;
+  color: var(--ifm-hero-text-color);
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +24,40 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.subtitleExtra {
+  margin: 0.75rem auto 0;
+  max-width: 800px;
+  opacity: 0.95;
+}
+
+.ctaGroup {
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.ctaSecondary {
+  --ifm-button-border-color: var(--ifm-color-white);
+}
+
+/* Texto negro al pasar el ratón por el botón "Leer el Blog" */
+.ctaSecondary:hover {
+  color: #000 !important;
+}
+
+/* Accesibilidad: también al enfocarlo con teclado */
+.ctaSecondary:focus-visible {
+  color: #000 !important;
+}
+
+.ctaIcon {
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+/* Variante en tema oscuro: aún más profundo */
+[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, #7c2d12 0%, #9a3412 45%, #c2410c 100%);
 }
