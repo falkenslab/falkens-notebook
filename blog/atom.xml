@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://falkenslab.github.io/falkens-notebook/blog</id>
+    <title>Falken's Notebook Blog</title>
+    <updated>2025-08-21T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://falkenslab.github.io/falkens-notebook/blog"/>
+    <subtitle>Falken's Notebook Blog</subtitle>
+    <icon>https://falkenslab.github.io/falkens-notebook/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Introducción a Claude Code]]></title>
+        <id>https://falkenslab.github.io/falkens-notebook/blog/claude-code</id>
+        <link href="https://falkenslab.github.io/falkens-notebook/blog/claude-code"/>
+        <updated>2025-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Claude Code es una herramienta de IA que permite a los desarrolladores generar y completar código de manera más eficiente.]]></summary>
+        <content type="html"><![CDATA[<p><strong>Claude Code</strong> es una herramienta de IA que permite a los desarrolladores generar y completar código de manera más eficiente.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="instalación">Instalación<a href="https://falkenslab.github.io/falkens-notebook/blog/claude-code#instalaci%C3%B3n" class="hash-link" aria-label="Enlace directo al Instalación" title="Enlace directo al Instalación">​</a></h2>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install -g @anthropic-ai/claude-code</span><br></span></code></pre></div></div>]]></content>
+        <author>
+            <name>Fran Vargas</name>
+            <uri>https://linkedin.com/in/fvarrui</uri>
+        </author>
+        <category label="Hello" term="Hello"/>
+        <category label="Docusaurus" term="Docusaurus"/>
+    </entry>
+</feed>
