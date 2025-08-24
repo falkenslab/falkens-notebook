@@ -1,0 +1,17 @@
+fvarrui:
+  name: Fran Vargas
+  title: Ingeniero de Software, Analista de Aplicaciones y entusiasta de la IA
+  url: https://linkedin.com/in/fvarrui
+  image_url: https://github.com/fvarrui.png
+  socials:
+    x: fvarrui
+    linkedin: fvarrui
+    github: fvarrui
+
+noeper:
+  name: Noemí Pérez
+  title: Ingeniera Informática y Profesora de Formación Profesional
+  url: https://github.com/noeper
+  image_url: https://github.com/noeper.png
+  socials:
+    github: noeper
