@@ -69,6 +69,22 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: true,
+        docsRouteBasePath: '/docs',
+        blogRouteBasePath: '/blog',
+        language: ['es'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -86,6 +102,7 @@ const config: Config = {
           label: 'Notas',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {type: 'search', position: 'right'},
         {
           href: 'https://github.com/falkenslab/falkens-notebook',
           label: 'GitHub',
