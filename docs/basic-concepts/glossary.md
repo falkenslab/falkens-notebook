@@ -106,7 +106,6 @@ Es un modelo de IA muy grande que sabe trabajar con texto: leer, resumir, escrib
 - Ventajas: sirve para muchas tareas con el mismo modelo.
 - Límites: puede inventar datos o no saber lo más reciente si no se le da.
 
-
 --- 
 
 ## M
