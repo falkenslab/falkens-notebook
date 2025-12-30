@@ -89,7 +89,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Falken\'s Notebook',
+      title: 'Dr. Falken\'s Notebook',
       logo: {
         alt: 'Falken\'s Lab Logo',
         src: 'img/logo.svg',
