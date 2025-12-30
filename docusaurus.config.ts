@@ -144,7 +144,7 @@ const config: Config = {
           items: [
             {
               label: '¿Quién es el Dr. Falken?',
-              href: 'https://en.wikipedia.org/wiki/WarGames',
+              href: 'https://war-games.fandom.com/wiki/Stephen_Falken',
             },
           ],
         },
