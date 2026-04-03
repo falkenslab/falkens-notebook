@@ -10,7 +10,7 @@ Bienvenid@s a **Falken's Notebook**, un espacio dedicado a la exploración y exp
 
 ### Conceptos básicos
 
-- [Definiciones](basic-concepts/glossary.md)
+- [Definiciones](basics/glossary.md)
 
 ### Modelos
 
