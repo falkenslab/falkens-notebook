@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
       <>
         Contenido claro para ir de cero a productivo: revisa el{' '}
         <Link to="/docs/intro">inicio del cuaderno</Link> y el{' '}
-        <Link to="/docs/basic-concepts/glossary">glosario</Link>.
+        <Link to="/docs/basics/glossary">glosario</Link>.
       </>
     ),
   },

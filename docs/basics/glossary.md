@@ -98,13 +98,13 @@ Ver también: [Fine-tuning](#fine-tuning), [RLHF](#rlhf).
 
 ## F
 
-### Few‑shot
+### Few-shot
 
 Poner 1–3 ejemplos dentro del mensaje para que el modelo copie el estilo o el formato, sin tener que re‑entrenarlo.
 
 Ver también: [Zero-shot](#zero-shot), [Prompt Engineering](./prompt-engineering).
 
-### Fine‑tuning
+### Fine-tuning
 
 Ajustar un modelo con tus propios datos para que se especialice en tu caso. Suele ser más preciso que solo dar ejemplos, pero también más costoso.
 
@@ -358,7 +358,7 @@ Cantidad de texto que el modelo puede "tener a la vista" de una vez (entrada + r
 
 ## Z
 
-### Zero‑shot
+### Zero-shot
 
 Pedirle al modelo que realice una tarea sin darle ningún ejemplo previo, confiando solo en su conocimiento general.
 
