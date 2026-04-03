@@ -12,3 +12,33 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+Claude:
+  label: Claude
+  permalink: /claude
+  description: Publicaciones sobre Claude de Anthropic
+
+CLI:
+  label: CLI
+  permalink: /cli
+  description: Herramientas de línea de comandos
+
+Agente:
+  label: Agente
+  permalink: /agente
+  description: Agentes de inteligencia artificial
+
+OpenAI:
+  label: OpenAI
+  permalink: /openai
+  description: Publicaciones sobre OpenAI y sus modelos
+
+Codex:
+  label: Codex
+  permalink: /codex
+  description: Publicaciones sobre OpenAI Codex CLI
+
+Ollama:
+  label: Ollama
+  permalink: /ollama
+  description: Ejecución de modelos de lenguaje en local con Ollama
