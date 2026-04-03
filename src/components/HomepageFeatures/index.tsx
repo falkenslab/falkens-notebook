@@ -42,7 +42,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Piezas para construir:{' '}
-        <Link to="/docs/tools/llms">LLMs</Link>,{' '}
+        <Link to="/docs/tools/interfaces">interfaces</Link>,{' '}
         <Link to="/docs/tools/vector-databases">vectores</Link> y más utilidades
         del stack.
       </>

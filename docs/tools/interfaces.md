@@ -62,11 +62,11 @@ Aplicación de escritorio (macOS, Windows, Linux) para descargar y ejecutar mode
 
 **Rendimiento orientativo:**
 
-| Hardware      | Modelo (Q5_K_M) | Tokens/s |
-| ------------- | --------------- | -------- |
-| M1 MacBook    | 7B              | ~15–20   |
-| M2/M3 MacBook | 7B              | ~30–50   |
-| RTX 4090      | 7B              | >100     |
+| Hardware | Modelo (Q5_K_M) | Tokens/s |
+|---|---|---|
+| M1 MacBook | 7B | ~15–20 |
+| M2/M3 MacBook | 7B | ~30–50 |
+| RTX 4090 | 7B | >100 |
 
 ## Jan
 
@@ -120,15 +120,15 @@ Categorías especializadas: codificación, prompts difíciles, flujos agénticos
 
 ## Comparativa rápida
 
-| Herramienta     | Tipo        | Modelos locales | Cloud APIs | RAG integrado | Mejor para                       |
-| --------------- | ----------- | --------------- | ---------- | ------------- | -------------------------------- |
-| **Ollama**      | CLI + API   | Sí              | No         | No            | Desarrolladores, scripting       |
-| **Open WebUI**  | Web         | Sí (vía Ollama) | Sí         | Sí            | Uso diario, equipos              |
-| **LM Studio**   | Desktop     | Sí              | No         | Sí            | Explorar modelos, API local      |
-| **Jan**         | Desktop     | Sí              | Sí         | No            | Uso offline, privacidad          |
-| **Msty**        | Desktop     | Sí              | Sí         | Sí            | Comparar modelos, productividad  |
-| **llamafile**   | Ejecutable  | Sí              | No         | No            | Demos portables, sin instalación |
-| **AnythingLLM** | Desktop/Web | Sí              | Sí         | Sí            | Equipos, documentos corporativos |
+| Herramienta | Tipo | Modelos locales | Cloud APIs | RAG integrado | Mejor para |
+|---|---|---|---|---|---|
+| **Ollama** | CLI + API | Sí | No | No | Desarrolladores, scripting |
+| **Open WebUI** | Web | Sí (vía Ollama) | Sí | Sí | Uso diario, equipos |
+| **LM Studio** | Desktop | Sí | No | Sí | Explorar modelos, API local |
+| **Jan** | Desktop | Sí | Sí | No | Uso offline, privacidad |
+| **Msty** | Desktop | Sí | Sí | Sí | Comparar modelos, productividad |
+| **llamafile** | Ejecutable | Sí | No | No | Demos portables, sin instalación |
+| **AnythingLLM** | Desktop/Web | Sí | Sí | Sí | Equipos, documentos corporativos |
 
 ## Referencias
 
