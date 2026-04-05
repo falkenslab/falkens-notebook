@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     btnLabel: 'Proponer',
     description: (
       <>
-        Intuiciones sin demostrar, preguntas sin responder, conexiones que aún no sé
+        Intuiciones sin demostrar, preguntas sin responder, conexiones que aún no sabemos
         si tienen sentido. Las ideas se gestionan como{' '}
         <Link to="https://github.com/falkenslab/falkens-notebook/issues">issues en GitHub</Link>.
       </>
@@ -38,7 +38,7 @@ const FeatureList: FeatureItem[] = [
     btnLabel: 'Explorar',
     description: (
       <>
-        Código ejecutable, resultado real e interpretación breve. Sin teoría de más:
+        Código y/o comandos ejecutables, con resultados reales e interpretación breve. Sin teoría de más:
         cada experimento va directo al grano y enlaza a las{' '}
         <Link to="/docs/intro">notas</Link> si hay más que explicar.
       </>
@@ -52,8 +52,8 @@ const FeatureList: FeatureItem[] = [
     btnLabel: 'Leer',
     description: (
       <>
-        Documentación de referencia: modelos, herramientas, casos de uso y el{' '}
-        <Link to="/docs/glossary">glosario</Link>. La teoría justa
+        Documentación de referencia: modelos, herramientas, el{' '}
+        <Link to="/docs/glossary">glosario</Link>, etc. La teoría justa
         que da soporte a los experimentos.
       </>
     ),

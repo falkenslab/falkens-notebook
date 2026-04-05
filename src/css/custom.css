@@ -28,6 +28,33 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+/* Botón de nueva idea en el navbar */
+.navbar__idea-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.55rem;
+  border: 1.5px solid #d97706;
+  border-radius: 6px;
+  color: #d97706 !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-decoration: none !important;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.navbar__idea-btn:hover {
+  background-color: #d97706;
+  color: #fff !important;
+}
+[data-theme='dark'] .navbar__idea-btn {
+  border-color: #f59e0b;
+  color: #f59e0b !important;
+}
+[data-theme='dark'] .navbar__idea-btn:hover {
+  background-color: #f59e0b;
+  color: #fff !important;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   /* Primary palette (dark theme) — Brighter oranges for contrast */

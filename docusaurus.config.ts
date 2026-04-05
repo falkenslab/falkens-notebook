@@ -106,7 +106,25 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/experiments', label: 'Experimentos', position: 'left'},
+        {
+          type: 'html',
+          position: 'left',
+          value: '<a href="https://github.com/falkenslab/falkens-notebook/issues/new?template=idea.md" target="_blank" rel="noopener noreferrer" class="navbar__idea-btn" title="Proponer una idea">💡</a>',
+        },
+        {
+          href: 'https://github.com/falkenslab/falkens-notebook/issues',
+          label: 'Ideas',
+          position: 'left',
+        },
+        {
+          type: 'dropdown',
+          label: 'Experimentos',
+          position: 'left',
+          items: [
+            {to: '/experiments', label: 'Todos'},
+            {to: '/experiments/tags', label: 'Por temática'},
+          ],
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
