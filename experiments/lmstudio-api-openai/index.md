@@ -37,4 +37,4 @@ con una pequeña pérdida de calidad.
 ## Referencias
 
 - [LM Studio — Sitio oficial](https://lmstudio.ai)
-- [Notas: LM Studio](/docs/tools/llm-runtimes/lmstudio/overview)
+- [Notas: LM Studio](/notes/tools/llm-runtimes/lmstudio/overview)

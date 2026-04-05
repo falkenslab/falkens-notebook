@@ -13,7 +13,7 @@ Para poder ejecutar un modelo (LLM), necesitamos un motor de ejecución (runtime
 
 ## 1. Instalamos Ollama
 
-Sigue estas [instrucciones para instalar Ollama](/docs/tools/llm-runtimes/ollama/instalacion) en tu sistema.
+Sigue estas [instrucciones para instalar Ollama](/notes/tools/llm-runtimes/ollama/instalacion) en tu sistema.
 
 ## 2. Descargamos un modelo
 

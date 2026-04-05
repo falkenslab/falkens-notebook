@@ -37,4 +37,4 @@ Abre `http://localhost:8080`, crea una cuenta de administrador y ya puedes desca
 
 - [Open WebUI — Documentación](https://docs.openwebui.com)
 - [Open WebUI — GitHub](https://github.com/open-webui/open-webui)
-- [Notas: Open WebUI](/docs/tools/llm-runtimes/open-webui/overview)
+- [Notas: Open WebUI](/notes/tools/llm-runtimes/open-webui/overview)

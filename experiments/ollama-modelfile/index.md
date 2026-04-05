@@ -37,4 +37,4 @@ Usa tuple cuando los datos no deben cambiar; es ligeramente más rápida y consu
 ## Referencias
 
 - [Referencia de Modelfile](https://github.com/ollama/ollama/blob/main/docs/modelfile.md)
-- [Notas: Configuración de Ollama](/docs/tools/llm-runtimes/ollama/configuracion)
+- [Notas: Configuración de Ollama](/notes/tools/llm-runtimes/ollama/configuracion)

@@ -9,7 +9,7 @@
 .cache-loader
 
 # Claude Code
-#.claude
+.claude
 
 # Misc
 .DS_Store

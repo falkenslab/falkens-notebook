@@ -32,4 +32,4 @@ de los modelos de lenguaje modernos como GPT, BERT y LLaMA.
 
 - [llamafile — GitHub (Mozilla)](https://github.com/mozilla-oai/llamafile)
 - [Modelos llamafile en HuggingFace](https://huggingface.co/Mozilla)
-- [Notas: llamafile](/docs/tools/llm-runtimes/llamafile/overview)
+- [Notas: llamafile](/notes/tools/llm-runtimes/llamafile/overview)

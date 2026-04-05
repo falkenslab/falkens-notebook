@@ -35,7 +35,6 @@ Claude localizará el fichero relevante, leerá su contenido, propondrá el camb
 
 Por defecto, las operaciones que modifican ficheros o ejecutan comandos piden confirmación. Puedes ajustar el nivel de autonomía con el flag `--dangerously-skip-permissions` (solo para entornos controlados).
 
-Ver el experimento: [Primera sesión con Claude Code](/experiments/claude-code-primera-sesion)
 
 ## Referencias
 

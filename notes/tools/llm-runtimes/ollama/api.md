@@ -65,7 +65,6 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 ```
 
-Ver el experimento: [Llamada a la API de Ollama con curl](/experiments/ollama-api-curl)
 
 ## Referencias
 

@@ -58,4 +58,4 @@ for doc, dist in zip(resultados["documents"][0], resultados["distances"][0]):
 
 - [ChromaDB — Documentación](https://docs.trychroma.com)
 - [ChromaDB — GitHub](https://github.com/chroma-core/chroma)
-- [Notas: ChromaDB](/docs/tools/vector-databases/chromadb)
+- [Notas: ChromaDB](/notes/tools/vector-databases/chromadb)

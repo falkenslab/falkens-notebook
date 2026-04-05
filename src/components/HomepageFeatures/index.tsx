@@ -40,7 +40,7 @@ const FeatureList: FeatureItem[] = [
       <>
         Código y/o comandos ejecutables, con resultados reales e interpretación breve. Sin teoría de más:
         cada experimento va directo al grano y enlaza a las{' '}
-        <Link to="/docs/intro">notas</Link> si hay más que explicar.
+        <Link to="/notes/intro">notas</Link> si hay más que explicar.
       </>
     ),
   },
@@ -48,12 +48,12 @@ const FeatureList: FeatureItem[] = [
     title: 'Notas',
     Svg: BookOpen,
     color: '#3b82f6',
-    to: '/docs/intro',
+    to: '/notes/intro',
     btnLabel: 'Leer',
     description: (
       <>
         Documentación de referencia: modelos, herramientas, el{' '}
-        <Link to="/docs/glossary">glosario</Link>, etc. La teoría justa
+        <Link to="/notes/glossary">glosario</Link>, etc. La teoría justa
         que da soporte a los experimentos.
       </>
     ),

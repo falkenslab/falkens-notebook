@@ -51,7 +51,6 @@ Codex ofrece tres niveles de autonomía, que se controlan con el flag `--approva
 codex --approval-mode auto-edit
 ```
 
-Ver el experimento: [Primera sesión con Codex CLI](/experiments/codex-primera-sesion)
 
 ## Referencias
 

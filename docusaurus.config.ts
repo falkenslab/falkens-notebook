@@ -47,9 +47,8 @@ const config: Config = {
       {
         docs: {
           path: './notes',
+          routeBasePath: '/notes',
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/falkenslab/falkens-notebook/edit/main/',
         },
@@ -87,7 +86,7 @@ const config: Config = {
         indexBlog: true,
         docsDir: 'notes',
         blogDir: 'experiments',
-        docsRouteBasePath: '/docs',
+        docsRouteBasePath: '/notes',
         blogRouteBasePath: '/experiments',
         language: ['es'],
         highlightSearchTermsOnTargetPage: true,
@@ -151,7 +150,7 @@ const config: Config = {
             },
             {
               label: 'Notas',
-              to: '/docs/intro',
+              to: '/notes/intro',
             },
           ],
         },

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Bases de datos vectoriales
 
-Las bases de datos vectoriales almacenan y permiten buscar vectores (embeddings) por similitud semántica. Son el componente de almacenamiento central en sistemas [RAG](/docs/glossary#rag), búsqueda semántica y recomendaciones.
+Las bases de datos vectoriales almacenan y permiten buscar vectores (embeddings) por similitud semántica. Son el componente de almacenamiento central en sistemas [RAG](/notes/glossary#rag), búsqueda semántica y recomendaciones.
 
 A diferencia de una base de datos relacional (que busca coincidencias exactas), una base de datos vectorial busca los vectores más *cercanos* al vector de consulta según una métrica de distancia (coseno, euclidiana...).
 
@@ -26,6 +26,6 @@ La elección de la base de datos vectorial representa solo el 5–10% de la cali
 
 ## Referencias
 
-- [Conceptos: RAG](/docs/glossary#rag)
-- [Conceptos: Embeddings](/docs/glossary#embeddings)
-- [Modelos de embeddings](/docs/models/embeddings)
+- [Conceptos: RAG](/notes/glossary#rag)
+- [Conceptos: Embeddings](/notes/glossary#embeddings)
+- [Modelos de embeddings](/notes/models/embeddings)

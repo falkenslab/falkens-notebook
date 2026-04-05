@@ -17,7 +17,6 @@ Aplicación de escritorio todo-en-uno (Windows, Mac, Linux) orientada a producti
 
 La característica más distintiva de Msty es poder enviar el mismo prompt a varios modelos simultáneamente y ver las respuestas lado a lado. Útil para comparar calidad, estilo o precisión entre modelos antes de elegir cuál usar para una tarea concreta.
 
-Ver el experimento: [Comparar modelos en paralelo con Msty](/experiments/msty-comparar-modelos)
 
 ## Referencias
 

@@ -36,7 +36,6 @@ ollama run llama3.2 "Explica qué es un transformer en dos frases"
 cat codigo.py | ollama run qwen2.5-coder "Revisa este código y señala posibles bugs"
 ```
 
-Ver el experimento: [Prompt puntual con Ollama desde la terminal](/experiments/ollama-prompt-puntual)
 
 ## Referencias
 

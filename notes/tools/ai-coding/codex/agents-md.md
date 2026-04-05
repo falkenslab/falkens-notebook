@@ -33,4 +33,4 @@ Ver el experimento: [Definir restricciones de proyecto con AGENTS.md](/experimen
 ## Referencias
 
 - [Codex CLI — Repositorio oficial](https://github.com/openai/codex)
-- [Comparativa con CLAUDE.md](/docs/tools/ai-coding/claude-code/claude-md)
+- [Comparativa con CLAUDE.md](/notes/tools/ai-coding/claude-code/claude-md)

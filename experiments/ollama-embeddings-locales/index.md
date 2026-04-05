@@ -38,4 +38,4 @@ Dimensiones: 768
 
 - [Librería Python de Ollama](https://github.com/ollama/ollama-python)
 - [Catálogo de modelos](https://ollama.com/library)
-- [Notas: Casos de uso de Ollama](/docs/tools/llm-runtimes/ollama/casos-de-uso)
+- [Notas: Casos de uso de Ollama](/notes/tools/llm-runtimes/ollama/casos-de-uso)

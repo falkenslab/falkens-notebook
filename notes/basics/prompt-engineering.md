@@ -96,7 +96,7 @@ Devuelve la respuesta como un objeto JSON con las claves "nombre", "edad" y "ciu
 - **Instrucciones contradictorias**: pedir "respuesta breve" y a la vez "explica con todo detalle".
 - **Contexto insuficiente**: asumir que el modelo "sabe" cosas que no están en el prompt.
 - **Prompt demasiado largo sin estructura**: el modelo puede perder el hilo. Usa secciones y separadores claros.
-- **Depender de la aleatoriedad**: si necesitas resultados reproducibles, baja la [temperatura](/docs/glossary#temperatura) y fija una semilla si la API lo permite.
+- **Depender de la aleatoriedad**: si necesitas resultados reproducibles, baja la [temperatura](/notes/glossary#temperatura) y fija una semilla si la API lo permite.
 
 ## Prompting para tareas de código
 

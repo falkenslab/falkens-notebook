@@ -5,32 +5,44 @@ title: RAG sobre documentos propios con AnythingLLM
 tags: [AnythingLLM, RAG, Ollama]
 ---
 
-Hacer preguntas sobre documentos privados sin enviarlos a servicios externos, usando AnythingLLM con Ollama como backend local.
+Queremos hacer preguntas a un modelo sobre documentos privados sin enviarlos a servicios externos, y para ello usaremos [AnythingLLM](https://anythingllm.com/) con Ollama como LLM runtime local.
 
 <!-- truncate -->
 
-## Experimento: crear un workspace con RAG sobre documentos propios
 
-**Contexto:** AnythingLLM permite hacer preguntas sobre documentos privados sin enviarlos a servicios externos, usando Ollama como backend.
+1. [Instalamos Ollama](/notes/tools/llm-runtimes/ollama/instalacion) y [descargamos el modelo](/notes/tools/llm-runtimes/ollama/modelos#descargar-un-modelo) que queramos usar para analizar los documentos.
 
-```
-1. Instalar AnythingLLM (escritorio)
-2. En Settings → LLM: seleccionar Ollama, modelo llama3.2
-3. Crear un nuevo Workspace: "Proyecto"
-4. Subir un PDF o documento de texto
-5. Hacer una pregunta sobre el contenido
-```
+2. Instalamos [AnythingLLM](https://anythingllm.com/desktop) y lo ejecutamos.
 
-```
->>> ¿Cuál es el presupuesto total del proyecto según el documento?
-Según el documento adjunto, el presupuesto total del proyecto asciende a 45.000 €,
-distribuidos en tres fases: análisis (10.000 €), desarrollo (25.000 €) y despliegue (10.000 €).
-```
+![alt text](image.png)
 
-**Qué aprender:** AnythingLLM vectoriza los documentos automáticamente al subirlos y los usa como contexto en cada pregunta. Todo ocurre en local con Ollama, sin enviar datos a ningún servidor externo.
+Si pulsamos "Comenzar", nos sugiere un modelo adecuado a nuestros recursos hardware, pero lo que queremos es usar Ollama como proveedor de modelos.
+
+![alt text](image-1.png)
+
+3. Seleccionamos "Configuración manual" y localizamos "Ollama":
+
+![alt text](image-2.png)
+
+4. Elegimos un modelo de entre los que tenemos disponibles en Ollama y terminamos el proceso de configuración inicial:
+
+![alt text](image-3.png)
+
+5. Creamos un espacio de trabajo (workspace) al que adjuntar documentos y preguntarle a nuestro modelo local:
+
+![alt text](image-4.png)
+
+6. Subimos un PDF al espacio de trabajo y lo pineamos:
+
+![alt text](image-5.png)
+
+7. Y finalmente podemos hacerle preguntas sobre el contenido adjunto al espacio de trabajo:
+
+![alt text](image-6.png)
+
 
 ## Referencias
 
 - [AnythingLLM — Sitio oficial](https://anythingllm.com)
 - [AnythingLLM — Documentación](https://docs.anythingllm.com)
-- [Notas: AnythingLLM](/docs/tools/llm-runtimes/anythingllm/overview)
+- [Notas: AnythingLLM](/notes/tools/llm-runtimes/anythingllm/overview)

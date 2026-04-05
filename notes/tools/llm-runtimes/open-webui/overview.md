@@ -39,4 +39,4 @@ Ver el experimento: [Levantar Open WebUI con Ollama en un comando](/experiments/
 
 - [Open WebUI — Documentación](https://docs.openwebui.com)
 - [Open WebUI — GitHub](https://github.com/open-webui/open-webui)
-- [Ollama](/docs/tools/llm-runtimes/ollama/instalacion)
+- [Ollama](/notes/tools/llm-runtimes/ollama/instalacion)

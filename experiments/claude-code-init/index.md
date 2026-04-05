@@ -9,28 +9,23 @@ Usar `/init` para que Claude Code analice el proyecto automáticamente y genere 
 
 <!-- truncate -->
 
-## Experimento: generar CLAUDE.md con /init
+Este **built-in slash command** de Claude Code nos ahorra tiempo analizando el proyecto automáticamente y produciendo un fichero de contexto útil desde el primer momento.
 
-**Contexto:** `/init` ahorra tiempo analizando el proyecto automáticamente y produciendo un fichero de contexto útil desde el primer momento.
+1. Ejecutamos `claude` en nuestro proyecto existente y ejecutamos el comando `/init`:
 
-```
-/init
-```
+![alt text](image.png)
 
-**Resultado:**
-```
-Analizando estructura del proyecto...
-Leyendo package.json, tsconfig.json, src/...
+2. Claude analizará nuestro proyecto para generar el fichero `CLAUDE.md`:
 
-Creado CLAUDE.md con:
-- Comandos del proyecto (npm start, npm run build, npm test)
-- Descripción de la arquitectura detectada
-- Convenciones de código observadas
-```
+![alt text](image-1.png)
 
-**Qué aprender:** tras `/init`, Claude Code tiene suficiente contexto para trabajar en el proyecto sin que expliques nada más. Edita el `CLAUDE.md` generado para añadir restricciones o convenciones específicas.
+3. Tras la ejecución de `/init`, Claude Code tendrá mayor contexto para trabajar en el proyecto: 
+
+![alt text](image-2.png)
+
+> 🤓 Podemos editar el fichero `CLAUDE.md` generado para añadir restricciones o convenciones específicas de tu proyecto.
 
 ## Referencias
 
 - [Configuración de CLAUDE.md](https://docs.anthropic.com/es/docs/claude-code/memory)
-- [Notas: CLAUDE.md y directorio .claude](/docs/tools/ai-coding/claude-code/claude-md)
+- [Notas: CLAUDE.md y directorio .claude](/notes/tools/ai-coding/claude-code/claude-md)

@@ -45,7 +45,7 @@ O en `~/.codex/config.json`:
 
 ## Usar Ollama (modelos en local)
 
-[Ollama](/docs/tools/llm-runtimes/ollama/instalacion) permite ejecutar modelos de lenguaje completamente en local, sin enviar datos a ningún servidor externo. Como Ollama expone una API compatible con OpenAI, se integra directamente con Codex.
+[Ollama](/notes/tools/llm-runtimes/ollama/instalacion) permite ejecutar modelos de lenguaje completamente en local, sin enviar datos a ningún servidor externo. Como Ollama expone una API compatible con OpenAI, se integra directamente con Codex.
 
 **1. Instala y arranca Ollama con el modelo que quieras usar:**
 

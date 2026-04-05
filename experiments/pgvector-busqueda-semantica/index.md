@@ -51,4 +51,4 @@ Los transformers dominan el NLP | 0.412
 
 - [pgvector — GitHub](https://github.com/pgvector/pgvector)
 - [PostgreSQL — Documentación](https://www.postgresql.org/docs)
-- [Notas: pgvector](/docs/tools/vector-databases/pgvector)
+- [Notas: pgvector](/notes/tools/vector-databases/pgvector)

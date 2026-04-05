@@ -5,16 +5,13 @@ title: Definir restricciones de proyecto con AGENTS.md
 tags: [Codex, agente]
 ---
 
-Evitar que Codex toque ficheros generados o ignore convenciones del proyecto definiendo restricciones persistentes en AGENTS.md.
+`AGENTS.md` es un archivo de configuración para Codex CLI, donde le dices al agente cómo debe trabajar sobre tu proyecto. En este experimento vamos a evitar que Codex toque los ficheros que son generados o ignore convenciones del proyecto definiendo restricciones.
 
 <!-- truncate -->
 
-## Experimento: definir restricciones con AGENTS.md
+Sin `AGENTS.md`, Codex puede tocar ficheros generados o ignorar convenciones del proyecto, así que creamos este archivo en la raíz de nuestro proyecto:
 
-**Contexto:** sin `AGENTS.md`, Codex puede tocar ficheros generados o ignorar convenciones del proyecto. Definirlo evita errores difíciles de detectar.
-
-```bash
-cat > AGENTS.md << 'EOF'
+```markdown
 # AGENTS.md
 
 ## Comandos
@@ -27,23 +24,9 @@ npm run build
 - No modifiques ficheros en src/generated/ ni en dist/
 - Usa siempre async/await, nunca .then()
 - Los tests van en __tests__/ junto al fichero que prueban
-EOF
 ```
-
-```
-> añade tests para el módulo de autenticación
-```
-
-**Resultado:**
-```
-Creando __tests__/auth.test.ts junto a src/auth.ts...
-Usando async/await según las convenciones del proyecto.
-No se han tocado ficheros en src/generated/.
-```
-
-**Qué aprender:** `AGENTS.md` es la forma de imponer restricciones y convenciones al agente de forma persistente, sin repetirlas en cada sesión.
 
 ## Referencias
 
 - [Codex CLI — Repositorio oficial](https://github.com/openai/codex)
-- [Notas: AGENTS.md](/docs/tools/ai-coding/codex/agents-md)
+- [Notas: AGENTS.md](/notes/tools/ai-coding/codex/agents-md)

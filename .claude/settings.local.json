@@ -23,7 +23,13 @@
       "Bash(grep -h \"^tags:\" C:/Users/fvarrui/GitHub/falkens-notebook/experiments/*/index.md)",
       "Bash(grep -r \"Agente\\\\b\" C:/Users/fvarrui/GitHub/falkens-notebook/experiments/*/index.md)",
       "Bash(grep:*)",
-      "Bash(find C:/Users/fvarrui/GitHub/falkens-notebook/notes -maxdepth 2 -name \"_category_.json\" -exec sh -c 'echo \"=== {} ===\"; cat {}' \\\\;)"
+      "Bash(find C:/Users/fvarrui/GitHub/falkens-notebook/notes -maxdepth 2 -name \"_category_.json\" -exec sh -c 'echo \"=== {} ===\"; cat {}' \\\\;)",
+      "Bash(xargs sed:*)",
+      "Bash(sed -i '/Ver el experimento: \\\\[Primera sesión con Claude Code\\\\]/d' C:/Users/fvarrui/GitHub/falkens-notebook/notes/tools/ai-coding/claude-code/instalacion.md)",
+      "Bash(sed -i '/Ver el experimento: \\\\[Primera sesión con Codex CLI\\\\]/d' C:/Users/fvarrui/GitHub/falkens-notebook/notes/tools/ai-coding/codex/instalacion.md)",
+      "Bash(sed -i '/Ver el experimento: \\\\[Comparar modelos en paralelo con Msty\\\\]/d' C:/Users/fvarrui/GitHub/falkens-notebook/notes/tools/llm-runtimes/msty/overview.md)",
+      "Bash(sed -i '/Ver el experimento: \\\\[Llamada a la API de Ollama con curl\\\\]/d' C:/Users/fvarrui/GitHub/falkens-notebook/notes/tools/llm-runtimes/ollama/api.md)",
+      "Bash(sed -i '/Ver el experimento: \\\\[Prompt puntual con Ollama desde la terminal\\\\]/d' C:/Users/fvarrui/GitHub/falkens-notebook/notes/tools/llm-runtimes/ollama/uso-basico.md)"
     ]
   }
 }

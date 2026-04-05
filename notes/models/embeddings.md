@@ -204,9 +204,9 @@ Consulta: ¿Qué lenguaje de programación es popular en IA?
 
 ## Referencias
 
-- [Conceptos: Embeddings](/docs/glossary#embeddings)
-- [Conceptos: RAG](/docs/glossary#rag)
-- [Herramientas: Bases de datos vectoriales](/docs/tools/vector-databases/intro)
+- [Conceptos: Embeddings](/notes/glossary#embeddings)
+- [Conceptos: RAG](/notes/glossary#rag)
+- [Herramientas: Bases de datos vectoriales](/notes/tools/vector-databases/intro)
 - [OpenAI — Embeddings](https://platform.openai.com/docs/guides/embeddings)
 - [FAISS — Meta AI](https://faiss.ai)
 - [Ollama — nomic-embed-text](https://ollama.com/library/nomic-embed-text)

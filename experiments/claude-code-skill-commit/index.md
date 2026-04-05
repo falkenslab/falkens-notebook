@@ -42,4 +42,4 @@ Mensaje propuesto:
 ## Referencias
 
 - [Referencia de comandos y atajos](https://docs.anthropic.com/es/docs/claude-code/cli-usage)
-- [Notas: Skills y comandos](/docs/tools/ai-coding/claude-code/skills)
+- [Notas: Skills y comandos](/notes/tools/ai-coding/claude-code/skills)

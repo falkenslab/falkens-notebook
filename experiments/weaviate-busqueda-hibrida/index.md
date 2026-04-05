@@ -46,4 +46,4 @@ LM Studio incluye un servidor local compatible con la API de OpenAI.
 
 - [Weaviate — Documentación](https://weaviate.io/developers/weaviate)
 - [Weaviate — GitHub](https://github.com/weaviate/weaviate)
-- [Notas: Weaviate](/docs/tools/vector-databases/weaviate)
+- [Notas: Weaviate](/notes/tools/vector-databases/weaviate)
