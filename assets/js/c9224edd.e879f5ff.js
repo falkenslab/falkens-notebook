@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfalkens_notebook=globalThis.webpackChunkfalkens_notebook||[]).push([[3770],{2681(e){e.exports=JSON.parse('{"metadata":{"permalink":"/falkens-notebook/experiments/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":15,"previousPage":"/falkens-notebook/experiments","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

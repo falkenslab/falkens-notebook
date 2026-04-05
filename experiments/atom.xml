@@ -8,28 +8,6 @@
     <subtitle>Dr. Falken's Notebook Blog</subtitle>
     <icon>https://falkenslab.github.io/falkens-notebook/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[RAG sobre documentos propios con AnythingLLM]]></title>
-        <id>https://falkenslab.github.io/falkens-notebook/experiments/anythingllm-rag-documentos</id>
-        <link href="https://falkenslab.github.io/falkens-notebook/experiments/anythingllm-rag-documentos"/>
-        <updated>2026-04-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hacer preguntas sobre documentos privados sin enviarlos a servicios externos, usando AnythingLLM con Ollama como backend local.]]></summary>
-        <content type="html"><![CDATA[<p>Hacer preguntas sobre documentos privados sin enviarlos a servicios externos, usando AnythingLLM con Ollama como backend local.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="experimento-crear-un-workspace-con-rag-sobre-documentos-propios">Experimento: crear un workspace con RAG sobre documentos propios<a href="https://falkenslab.github.io/falkens-notebook/experiments/anythingllm-rag-documentos#experimento-crear-un-workspace-con-rag-sobre-documentos-propios" class="hash-link" aria-label="Enlace directo al Experimento: crear un workspace con RAG sobre documentos propios" title="Enlace directo al Experimento: crear un workspace con RAG sobre documentos propios" translate="no">​</a></h2>
-<p><strong>Contexto:</strong> AnythingLLM permite hacer preguntas sobre documentos privados sin enviarlos a servicios externos, usando Ollama como backend.</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">1. Instalar AnythingLLM (escritorio)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2. En Settings → LLM: seleccionar Ollama, modelo llama3.2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">3. Crear un nuevo Workspace: "Proyecto"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">4. Subir un PDF o documento de texto</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">5. Hacer una pregunta sobre el contenido</span><br></span></code></pre></div></div>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&gt;&gt;&gt; ¿Cuál es el presupuesto total del proyecto según el documento?</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Según el documento adjunto, el presupuesto total del proyecto asciende a 45.000 €,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">distribuidos en tres fases: análisis (10.000 €), desarrollo (25.000 €) y despliegue (10.000 €).</span><br></span></code></pre></div></div>
-<p><strong>Qué aprender:</strong> AnythingLLM vectoriza los documentos automáticamente al subirlos y los usa como contexto en cada pregunta. Todo ocurre en local con Ollama, sin enviar datos a ningún servidor externo.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/anythingllm-rag-documentos#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
-<ul>
-<li class=""><a href="https://anythingllm.com/" target="_blank" rel="noopener noreferrer" class="">AnythingLLM — Sitio oficial</a></li>
-<li class=""><a href="https://docs.anythingllm.com/" target="_blank" rel="noopener noreferrer" class="">AnythingLLM — Documentación</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/llm-runtimes/anythingllm/overview">Notas: AnythingLLM</a></li>
-</ul>]]></content>
-        <category label="AnythingLLM" term="AnythingLLM"/>
-        <category label="RAG" term="RAG"/>
-        <category label="Ollama" term="Ollama"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Búsqueda semántica con ChromaDB]]></title>
         <id>https://falkenslab.github.io/falkens-notebook/experiments/chromadb-busqueda-semantica</id>
         <link href="https://falkenslab.github.io/falkens-notebook/experiments/chromadb-busqueda-semantica"/>
@@ -47,7 +25,7 @@
 <ul>
 <li class=""><a href="https://docs.trychroma.com/" target="_blank" rel="noopener noreferrer" class="">ChromaDB — Documentación</a></li>
 <li class=""><a href="https://github.com/chroma-core/chroma" target="_blank" rel="noopener noreferrer" class="">ChromaDB — GitHub</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/vector-databases/chromadb">Notas: ChromaDB</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/vector-databases/chromadb">Notas: ChromaDB</a></li>
 </ul>]]></content>
         <category label="ChromaDB" term="ChromaDB"/>
         <category label="Embeddings" term="Embeddings"/>
@@ -60,41 +38,76 @@
         <updated>2026-04-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Usar /init para que Claude Code analice el proyecto automáticamente y genere un fichero de contexto listo para usar.]]></summary>
         <content type="html"><![CDATA[<p>Usar <code>/init</code> para que Claude Code analice el proyecto automáticamente y genere un fichero de contexto listo para usar.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="experimento-generar-claudemd-con-init">Experimento: generar CLAUDE.md con /init<a href="https://falkenslab.github.io/falkens-notebook/experiments/claude-code-init#experimento-generar-claudemd-con-init" class="hash-link" aria-label="Enlace directo al Experimento: generar CLAUDE.md con /init" title="Enlace directo al Experimento: generar CLAUDE.md con /init" translate="no">​</a></h2>
-<p><strong>Contexto:</strong> <code>/init</code> ahorra tiempo analizando el proyecto automáticamente y produciendo un fichero de contexto útil desde el primer momento.</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">/init</span><br></span></code></pre></div></div>
-<p><strong>Resultado:</strong></p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Analizando estructura del proyecto...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Leyendo package.json, tsconfig.json, src/...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Creado CLAUDE.md con:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Comandos del proyecto (npm start, npm run build, npm test)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Descripción de la arquitectura detectada</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Convenciones de código observadas</span><br></span></code></pre></div></div>
-<p><strong>Qué aprender:</strong> tras <code>/init</code>, Claude Code tiene suficiente contexto para trabajar en el proyecto sin que expliques nada más. Edita el <code>CLAUDE.md</code> generado para añadir restricciones o convenciones específicas.</p>
+<p>Este <strong>built-in slash command</strong> de Claude Code nos ahorra tiempo analizando el proyecto automáticamente y produciendo un fichero de contexto útil desde el primer momento.</p>
+<ol>
+<li class="">Ejecutamos <code>claude</code> en nuestro proyecto existente y ejecutamos el comando <code>/init</code>:</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://falkenslab.github.io/falkens-notebook/assets/images/image-1250482b3c2ff5c1274695001022759c.png" width="1252" height="441" class="img_ev3q"></p>
+<ol start="2">
+<li class="">Claude analizará nuestro proyecto para generar el fichero <code>CLAUDE.md</code>:</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://falkenslab.github.io/falkens-notebook/assets/images/image-1-e06f261f48ac620e252b540202691086.png" width="1225" height="614" class="img_ev3q"></p>
+<ol start="3">
+<li class="">Tras la ejecución de <code>/init</code>, Claude Code tendrá mayor contexto para trabajar en el proyecto:</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://falkenslab.github.io/falkens-notebook/assets/images/image-2-7f3992754dee2572ee6eec605ccca32f.png" width="1229" height="958" class="img_ev3q"></p>
+<blockquote>
+<p>🤓 Podemos editar el fichero <code>CLAUDE.md</code> generado para añadir restricciones o convenciones específicas de tu proyecto.</p>
+</blockquote>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/claude-code-init#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
 <ul>
 <li class=""><a href="https://docs.anthropic.com/es/docs/claude-code/memory" target="_blank" rel="noopener noreferrer" class="">Configuración de CLAUDE.md</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/ai-coding/claude-code/claude-md">Notas: CLAUDE.md y directorio .claude</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/ai-coding/claude-code/claude-md">Notas: CLAUDE.md y directorio .claude</a></li>
 </ul>]]></content>
         <category label="Claude Code" term="Claude Code"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Primera sesión con Claude Code]]></title>
-        <id>https://falkenslab.github.io/falkens-notebook/experiments/claude-code-primera-sesion</id>
-        <link href="https://falkenslab.github.io/falkens-notebook/experiments/claude-code-primera-sesion"/>
+        <title type="html"><![CDATA[RAG sobre documentos propios con AnythingLLM]]></title>
+        <id>https://falkenslab.github.io/falkens-notebook/experiments/anythingllm-rag-documentos</id>
+        <link href="https://falkenslab.github.io/falkens-notebook/experiments/anythingllm-rag-documentos"/>
         <updated>2026-04-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Instalar Claude Code y ver cómo analiza un proyecto real en la primera sesión, sin que tengas que explicar nada.]]></summary>
-        <content type="html"><![CDATA[<p>Instalar Claude Code y ver cómo analiza un proyecto real en la primera sesión, sin que tengas que explicar nada.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="experimento-primera-sesión-con-claude-code">Experimento: primera sesión con Claude Code<a href="https://falkenslab.github.io/falkens-notebook/experiments/claude-code-primera-sesion#experimento-primera-sesi%C3%B3n-con-claude-code" class="hash-link" aria-label="Enlace directo al Experimento: primera sesión con Claude Code" title="Enlace directo al Experimento: primera sesión con Claude Code" translate="no">​</a></h2>
-<p><strong>Contexto:</strong> comprobar que la instalación funciona y ver cómo Claude Code interactúa con un proyecto real.</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install -g @anthropic-ai/claude-code</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cd mi-proyecto</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">claude</span><br></span></code></pre></div></div>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&gt; dime qué hace este proyecto en una frase</span><br></span></code></pre></div></div>
-<p><strong>Resultado:</strong></p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Leyendo package.json, README.md y src/index.ts...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Es una API REST en Node.js con Express que gestiona un catálogo de productos</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">con operaciones CRUD y autenticación JWT.</span><br></span></code></pre></div></div>
-<p><strong>Qué aprender:</strong> Claude Code lee los ficheros del proyecto antes de responder, lo que le da contexto real sin que tengas que explicarlo tú.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/claude-code-primera-sesion#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
+        <summary type="html"><![CDATA[Queremos hacer preguntas a un modelo sobre documentos privados sin enviarlos a servicios externos, y para ello usaremos AnythingLLM con Ollama como LLM runtime local.]]></summary>
+        <content type="html"><![CDATA[<p>Queremos hacer preguntas a un modelo sobre documentos privados sin enviarlos a servicios externos, y para ello usaremos <a href="https://anythingllm.com/" target="_blank" rel="noopener noreferrer" class="">AnythingLLM</a> con Ollama como LLM runtime local.</p>
+<ol>
+<li class="">
+<p><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/llm-runtimes/ollama/instalacion">Instalamos Ollama</a> y <a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/llm-runtimes/ollama/modelos#descargar-un-modelo">descargamos el modelo</a> que queramos usar para analizar los documentos.</p>
+</li>
+<li class="">
+<p>Instalamos <a href="https://anythingllm.com/desktop" target="_blank" rel="noopener noreferrer" class="">AnythingLLM</a> y lo ejecutamos.</p>
+</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://falkenslab.github.io/falkens-notebook/assets/images/image-6d708986f29b2c7337e3c8209f66ccfe.png" width="995" height="724" class="img_ev3q"></p>
+<p>Si pulsamos "Comenzar", nos sugiere un modelo adecuado a nuestros recursos hardware, pero lo que queremos es usar Ollama como proveedor de modelos.</p>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://falkenslab.github.io/falkens-notebook/assets/images/image-1-e85256fef569059f332b681e9b052118.png" width="995" height="724" class="img_ev3q"></p>
+<ol start="3">
+<li class="">Seleccionamos "Configuración manual" y localizamos "Ollama":</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://falkenslab.github.io/falkens-notebook/assets/images/image-2-58035c28ad018509113fe181cc8e9f26.png" width="995" height="724" class="img_ev3q"></p>
+<ol start="4">
+<li class="">Elegimos un modelo de entre los que tenemos disponibles en Ollama y terminamos el proceso de configuración inicial:</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://falkenslab.github.io/falkens-notebook/assets/images/image-3-a428ff88aac2ab036f8aea12aaf0260a.png" width="995" height="724" class="img_ev3q"></p>
+<ol start="5">
+<li class="">Creamos un espacio de trabajo (workspace) al que adjuntar documentos y preguntarle a nuestro modelo local:</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://falkenslab.github.io/falkens-notebook/assets/images/image-4-aa115cf258471e2860e7bab7a71e830a.png" width="1268" height="887" class="img_ev3q"></p>
+<ol start="6">
+<li class="">Subimos un PDF al espacio de trabajo y lo pineamos:</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://falkenslab.github.io/falkens-notebook/assets/images/image-5-c6bf687ca2a261dfd3574189e219fbd2.png" width="1464" height="931" class="img_ev3q"></p>
+<ol start="7">
+<li class="">Y finalmente podemos hacerle preguntas sobre el contenido adjunto al espacio de trabajo:</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://falkenslab.github.io/falkens-notebook/assets/images/image-6-e9ca29695b50e140500d733af3bbaee1.png" width="1464" height="931" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/anythingllm-rag-documentos#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
 <ul>
-<li class=""><a href="https://claude.ai/code" target="_blank" rel="noopener noreferrer" class="">Claude Code — Sitio oficial</a></li>
-<li class=""><a href="https://docs.anthropic.com/es/docs/claude-code/overview" target="_blank" rel="noopener noreferrer" class="">Documentación de Claude Code</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/ai-coding/claude-code/instalacion">Notas: Claude Code — Instalación</a></li>
+<li class=""><a href="https://anythingllm.com/" target="_blank" rel="noopener noreferrer" class="">AnythingLLM — Sitio oficial</a></li>
+<li class=""><a href="https://docs.anythingllm.com/" target="_blank" rel="noopener noreferrer" class="">AnythingLLM — Documentación</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/llm-runtimes/anythingllm/overview">Notas: AnythingLLM</a></li>
 </ul>]]></content>
-        <category label="Claude Code" term="Claude Code"/>
-        <category label="Agente" term="Agente"/>
+        <category label="AnythingLLM" term="AnythingLLM"/>
+        <category label="RAG" term="RAG"/>
+        <category label="Ollama" term="Ollama"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Crear una skill de commit en Claude Code]]></title>
@@ -113,7 +126,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/claude-code-skill-commit#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
 <ul>
 <li class=""><a href="https://docs.anthropic.com/es/docs/claude-code/cli-usage" target="_blank" rel="noopener noreferrer" class="">Referencia de comandos y atajos</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/ai-coding/claude-code/skills">Notas: Skills y comandos</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/ai-coding/claude-code/skills">Notas: Skills y comandos</a></li>
 </ul>]]></content>
         <category label="Claude Code" term="Claude Code"/>
         <category label="Skills" term="Skills"/>
@@ -123,27 +136,17 @@
         <id>https://falkenslab.github.io/falkens-notebook/experiments/codex-agents-md</id>
         <link href="https://falkenslab.github.io/falkens-notebook/experiments/codex-agents-md"/>
         <updated>2026-04-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Evitar que Codex toque ficheros generados o ignore convenciones del proyecto definiendo restricciones persistentes en AGENTS.md.]]></summary>
-        <content type="html"><![CDATA[<p>Evitar que Codex toque ficheros generados o ignore convenciones del proyecto definiendo restricciones persistentes en AGENTS.md.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="experimento-definir-restricciones-con-agentsmd">Experimento: definir restricciones con AGENTS.md<a href="https://falkenslab.github.io/falkens-notebook/experiments/codex-agents-md#experimento-definir-restricciones-con-agentsmd" class="hash-link" aria-label="Enlace directo al Experimento: definir restricciones con AGENTS.md" title="Enlace directo al Experimento: definir restricciones con AGENTS.md" translate="no">​</a></h2>
-<p><strong>Contexto:</strong> sin <code>AGENTS.md</code>, Codex puede tocar ficheros generados o ignorar convenciones del proyecto. Definirlo evita errores difíciles de detectar.</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">cat &gt; AGENTS.md &lt;&lt; 'EOF'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># AGENTS.md</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Comandos</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">```bash</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm test</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm run build</span><br></span></code></pre></div></div>
+        <summary type="html"><![CDATA[AGENTS.md es un archivo de configuración para Codex CLI, donde le dices al agente cómo debe trabajar sobre tu proyecto. En este experimento vamos a evitar que Codex toque los ficheros que son generados o ignore convenciones del proyecto definiendo restricciones.]]></summary>
+        <content type="html"><![CDATA[<p><code>AGENTS.md</code> es un archivo de configuración para Codex CLI, donde le dices al agente cómo debe trabajar sobre tu proyecto. En este experimento vamos a evitar que Codex toque los ficheros que son generados o ignore convenciones del proyecto definiendo restricciones.</p>
+<p>Sin <code>AGENTS.md</code>, Codex puede tocar ficheros generados o ignorar convenciones del proyecto, así que creamos este archivo en la raíz de nuestro proyecto:</p>
+<div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token title important punctuation" style="color:#393A34">#</span><span class="token title important"> AGENTS.md</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">##</span><span class="token title important"> Comandos</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">```bash</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm test</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm run build</span><br></span></code></pre></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="restricciones">Restricciones<a href="https://falkenslab.github.io/falkens-notebook/experiments/codex-agents-md#restricciones" class="hash-link" aria-label="Enlace directo al Restricciones" title="Enlace directo al Restricciones" translate="no">​</a></h2>
 <ul>
 <li class="">No modifiques ficheros en src/generated/ ni en dist/</li>
 <li class="">Usa siempre async/await, nunca .then()</li>
-<li class="">Los tests van en <strong>tests</strong>/ junto al fichero que prueban
-EOF</li>
+<li class="">Los tests van en <strong>tests</strong>/ junto al fichero que prueban</li>
 </ul>
-<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"></code></pre>
-<blockquote>
-<p>añade tests para el módulo de autenticación</p>
-</blockquote>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">**Resultado:**</span><br></span></code></pre></div></div>
-<p>Creando <strong>tests</strong>/auth.test.ts junto a src/auth.ts...
-Usando async/await según las convenciones del proyecto.
-No se han tocado ficheros en src/generated/.</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">**Qué aprender:** `AGENTS.md` es la forma de imponer restricciones y convenciones al agente de forma persistente, sin repetirlas en cada sesión.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Referencias</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- [Codex CLI — Repositorio oficial](https://github.com/openai/codex)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- [Notas: AGENTS.md](/docs/tools/ai-coding/codex/agents-md)</span><br></span></code></pre></div></div>]]></content>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Referencias</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- [Codex CLI — Repositorio oficial](https://github.com/openai/codex)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- [Notas: AGENTS.md](/notes/tools/ai-coding/codex/agents-md)</span><br></span></code></pre></div></div>]]></content>
         <category label="Codex" term="Codex"/>
         <category label="Agente" term="Agente"/>
     </entry>
@@ -164,34 +167,12 @@ No se han tocado ficheros en src/generated/.</p>
 <ul>
 <li class=""><a href="https://github.com/openai/codex" target="_blank" rel="noopener noreferrer" class="">Codex CLI — Repositorio oficial</a></li>
 <li class=""><a href="https://ollama.com/" target="_blank" rel="noopener noreferrer" class="">Ollama — Sitio oficial</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/ai-coding/codex/modelos">Notas: Codex CLI — Modelos</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/ai-coding/codex/modelos">Notas: Codex CLI — Modelos</a></li>
 </ul>]]></content>
         <category label="Codex" term="Codex"/>
         <category label="Ollama" term="Ollama"/>
         <category label="Agente" term="Agente"/>
         <category label="Local" term="Local"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Primera sesión con Codex CLI]]></title>
-        <id>https://falkenslab.github.io/falkens-notebook/experiments/codex-primera-sesion</id>
-        <link href="https://falkenslab.github.io/falkens-notebook/experiments/codex-primera-sesion"/>
-        <updated>2026-04-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Instalar Codex CLI y comprobar cómo analiza la arquitectura de un proyecto real en la primera sesión.]]></summary>
-        <content type="html"><![CDATA[<p>Instalar Codex CLI y comprobar cómo analiza la arquitectura de un proyecto real en la primera sesión.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="experimento-primera-sesión-con-codex">Experimento: primera sesión con Codex<a href="https://falkenslab.github.io/falkens-notebook/experiments/codex-primera-sesion#experimento-primera-sesi%C3%B3n-con-codex" class="hash-link" aria-label="Enlace directo al Experimento: primera sesión con Codex" title="Enlace directo al Experimento: primera sesión con Codex" translate="no">​</a></h2>
-<p><strong>Contexto:</strong> comprobar que la instalación funciona y ver cómo Codex analiza un proyecto real.</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install -g @openai/codex</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cd mi-proyecto</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">codex</span><br></span></code></pre></div></div>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&gt; explícame la arquitectura de este proyecto en tres puntos</span><br></span></code></pre></div></div>
-<p><strong>Resultado:</strong></p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Leyendo package.json, src/index.ts, src/routes/...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">1. API REST con Express — los endpoints están en src/routes/, uno por recurso.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2. Capa de servicios en src/services/ — lógica de negocio desacoplada del framework.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">3. Autenticación con JWT — middleware en src/middleware/auth.ts aplicado a rutas protegidas.</span><br></span></code></pre></div></div>
-<p><strong>Qué aprender:</strong> al igual que Claude Code, Codex lee el proyecto antes de responder. El modo <code>suggest</code> es el más seguro para empezar: propone cada cambio antes de aplicarlo.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/codex-primera-sesion#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
-<ul>
-<li class=""><a href="https://github.com/openai/codex" target="_blank" rel="noopener noreferrer" class="">Codex CLI — Repositorio oficial</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/ai-coding/codex/instalacion">Notas: Codex CLI — Instalación</a></li>
-</ul>]]></content>
-        <category label="Codex" term="Codex"/>
-        <category label="Agente" term="Agente"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Ejecutar un LLM sin instalar nada con llamafile]]></title>
@@ -210,7 +191,7 @@ No se han tocado ficheros en src/generated/.</p>
 <ul>
 <li class=""><a href="https://github.com/mozilla-oai/llamafile" target="_blank" rel="noopener noreferrer" class="">llamafile — GitHub (Mozilla)</a></li>
 <li class=""><a href="https://huggingface.co/Mozilla" target="_blank" rel="noopener noreferrer" class="">Modelos llamafile en HuggingFace</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/llm-runtimes/llamafile/overview">Notas: llamafile</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/llm-runtimes/llamafile/overview">Notas: llamafile</a></li>
 </ul>]]></content>
         <category label="llamafile" term="llamafile"/>
         <category label="LLM" term="LLM"/>
@@ -232,84 +213,12 @@ No se han tocado ficheros en src/generated/.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/lmstudio-api-openai#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
 <ul>
 <li class=""><a href="https://lmstudio.ai/" target="_blank" rel="noopener noreferrer" class="">LM Studio — Sitio oficial</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/llm-runtimes/lmstudio/overview">Notas: LM Studio</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/llm-runtimes/lmstudio/overview">Notas: LM Studio</a></li>
 </ul>]]></content>
         <category label="LM Studio" term="LM Studio"/>
         <category label="OpenAI" term="OpenAI"/>
         <category label="API" term="API"/>
         <category label="Local" term="Local"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[El mismo prompt en ChatGPT, Claude y Gemini]]></title>
-        <id>https://falkenslab.github.io/falkens-notebook/experiments/mismo-prompt-tres-asistentes</id>
-        <link href="https://falkenslab.github.io/falkens-notebook/experiments/mismo-prompt-tres-asistentes"/>
-        <updated>2026-04-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Pedir a los tres principales asistentes conversacionales que resuman el mismo párrafo en un tweet y comparar los resultados.]]></summary>
-        <content type="html"><![CDATA[<p>Pedir a los tres principales asistentes conversacionales que resuman el mismo párrafo en un tweet y comparar los resultados.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="experimento-mismo-prompt-tres-asistentes">Experimento: mismo prompt, tres asistentes<a href="https://falkenslab.github.io/falkens-notebook/experiments/mismo-prompt-tres-asistentes#experimento-mismo-prompt-tres-asistentes" class="hash-link" aria-label="Enlace directo al Experimento: mismo prompt, tres asistentes" title="Enlace directo al Experimento: mismo prompt, tres asistentes" translate="no">​</a></h2>
-<p><strong>Contexto:</strong> pedir a ChatGPT, Claude y Gemini que resuman el mismo párrafo en un tweet (≤280 caracteres).</p>
-<p><strong>Prompt enviado:</strong></p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Resume en un tweet (máximo 280 caracteres, sin hashtags) este texto:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"Los modelos de lenguaje de gran escala han transformado la manera en que</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">interactuamos con las máquinas. Su capacidad para entender y generar texto</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">en lenguaje natural abre posibilidades en educación, medicina, programación</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">y creatividad que hace apenas cinco años eran impensables."</span><br></span></code></pre></div></div>
-<p><strong>Resultado:</strong></p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ChatGPT:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Los LLMs han revolucionado la interacción humano-máquina. Su comprensión</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">del lenguaje natural abre puertas inimaginables hace 5 años: educación,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">medicina, código y creatividad. (187 caracteres)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Claude.ai:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Los grandes modelos de lenguaje están redefiniendo cómo nos relacionamos</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">con las máquinas, abriendo posibilidades inéditas en educación, medicina,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">programación y creatividad. (178 caracteres)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Gemini:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Los LLMs transformaron nuestra relación con las máquinas. Entienden y</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">generan lenguaje natural, abriendo posibilidades impensables hace 5 años</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">en educación, salud, código y creatividad. (189 caracteres)</span><br></span></code></pre></div></div>
-<p><strong>Qué aprender:</strong> los tres cumplen la restricción de 280 caracteres, pero con estilos distintos. ChatGPT tiende a usar siglas (LLMs), Claude prefiere lenguaje más formal y completo, Gemini es intermedio. La diferencia real entre herramientas no aparece en tareas simples — prueba la que más uses con tus propios casos.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/mismo-prompt-tres-asistentes#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
-<ul>
-<li class=""><a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer" class="">ChatGPT</a></li>
-<li class=""><a href="https://claude.ai/" target="_blank" rel="noopener noreferrer" class="">Claude.ai</a></li>
-<li class=""><a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer" class="">Gemini</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/resources/online-tools">Notas: Herramientas online</a></li>
-</ul>]]></content>
-        <category label="ChatGPT" term="ChatGPT"/>
-        <category label="Claude" term="Claude"/>
-        <category label="Gemini" term="Gemini"/>
-        <category label="Comparativa" term="Comparativa"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Comparar modelos en paralelo con Msty]]></title>
-        <id>https://falkenslab.github.io/falkens-notebook/experiments/msty-comparar-modelos</id>
-        <link href="https://falkenslab.github.io/falkens-notebook/experiments/msty-comparar-modelos"/>
-        <updated>2026-04-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enviar el mismo prompt a varios modelos simultáneamente y ver las respuestas lado a lado antes de elegir cuál usar.]]></summary>
-        <content type="html"><![CDATA[<p>Enviar el mismo prompt a varios modelos simultáneamente y ver las respuestas lado a lado antes de elegir cuál usar.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="experimento-comparar-modelos-con-parallel-multiverse-chats">Experimento: comparar modelos con Parallel Multiverse Chats<a href="https://falkenslab.github.io/falkens-notebook/experiments/msty-comparar-modelos#experimento-comparar-modelos-con-parallel-multiverse-chats" class="hash-link" aria-label="Enlace directo al Experimento: comparar modelos con Parallel Multiverse Chats" title="Enlace directo al Experimento: comparar modelos con Parallel Multiverse Chats" translate="no">​</a></h2>
-<p><strong>Contexto:</strong> antes de decidir qué modelo usar para una tarea, Msty permite compararlos en paralelo con el mismo prompt.</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Prompt enviado a llama3.2 (local) y gpt-4o (cloud) simultáneamente:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"Explica la diferencia entre RAG y fine-tuning en dos frases."</span><br></span></code></pre></div></div>
-<p><strong>Resultado (llama3.2):</strong></p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">RAG recupera información externa en tiempo real para enriquecer el contexto del modelo.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Fine-tuning ajusta los pesos del modelo con datos específicos para cambiar su comportamiento de forma permanente.</span><br></span></code></pre></div></div>
-<p><strong>Resultado (gpt-4o):</strong></p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">RAG (Retrieval-Augmented Generation) combina el modelo con una búsqueda dinámica en documentos externos,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">sin modificar el modelo. El fine-tuning reentrana el modelo con datos propios, incorporando el conocimiento</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">directamente en sus pesos.</span><br></span></code></pre></div></div>
-<p><strong>Qué aprender:</strong> las respuestas son similares en contenido pero distintas en estilo. Para comparaciones rápidas, Msty evita tener que alternar entre herramientas o cuentas.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/msty-comparar-modelos#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
-<ul>
-<li class=""><a href="https://msty.ai/" target="_blank" rel="noopener noreferrer" class="">Msty — Sitio oficial</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/llm-runtimes/msty/overview">Notas: Msty</a></li>
-</ul>]]></content>
-        <category label="Msty" term="Msty"/>
-        <category label="Comparativa" term="Comparativa"/>
-        <category label="LLM" term="LLM"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Llamada a la API de Ollama con curl]]></title>
-        <id>https://falkenslab.github.io/falkens-notebook/experiments/ollama-api-curl</id>
-        <link href="https://falkenslab.github.io/falkens-notebook/experiments/ollama-api-curl"/>
-        <updated>2026-04-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Verificar que el servidor Ollama está activo y responde correctamente antes de integrarlo en una aplicación.]]></summary>
-        <content type="html"><![CDATA[<p>Verificar que el servidor Ollama está activo y responde correctamente antes de integrarlo en una aplicación.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="experimento-llamada-a-la-api-con-curl">Experimento: llamada a la API con curl<a href="https://falkenslab.github.io/falkens-notebook/experiments/ollama-api-curl#experimento-llamada-a-la-api-con-curl" class="hash-link" aria-label="Enlace directo al Experimento: llamada a la API con curl" title="Enlace directo al Experimento: llamada a la API con curl" translate="no">​</a></h2>
-<p><strong>Contexto:</strong> verificar que el servidor Ollama está activo y responde correctamente antes de integrarlo en una aplicación.</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">curl http://localhost:11434/api/generate \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  -d '{"model": "llama3.2", "prompt": "Di hola en tres idiomas", "stream": false}'</span><br></span></code></pre></div></div>
-<p><strong>Resultado:</strong></p>
-<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"model"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"llama3.2"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"response"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Hola (español) · Hello (inglés) · Bonjour (francés)"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"done"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token boolean" style="color:#36acaa">true</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
-<p><strong>Qué aprender:</strong> con <code>"stream": false</code> la respuesta llega completa en un solo JSON, lo que simplifica el parsing en scripts.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/ollama-api-curl#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
-<ul>
-<li class=""><a href="https://github.com/ollama/ollama/blob/main/docs/api.md" target="_blank" rel="noopener noreferrer" class="">Documentación de la API</a></li>
-<li class=""><a href="https://github.com/ollama/ollama/blob/main/docs/openai.md" target="_blank" rel="noopener noreferrer" class="">Compatibilidad con la API de OpenAI</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/llm-runtimes/ollama/api">Notas: API REST de Ollama</a></li>
-</ul>]]></content>
-        <category label="Ollama" term="Ollama"/>
-        <category label="API" term="API"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Embeddings locales con nomic-embed-text]]></title>
@@ -328,7 +237,7 @@ No se han tocado ficheros en src/generated/.</p>
 <ul>
 <li class=""><a href="https://github.com/ollama/ollama-python" target="_blank" rel="noopener noreferrer" class="">Librería Python de Ollama</a></li>
 <li class=""><a href="https://ollama.com/library" target="_blank" rel="noopener noreferrer" class="">Catálogo de modelos</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/llm-runtimes/ollama/casos-de-uso">Notas: Casos de uso de Ollama</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/llm-runtimes/ollama/casos-de-uso">Notas: Casos de uso de Ollama</a></li>
 </ul>]]></content>
         <category label="Ollama" term="Ollama"/>
         <category label="Embeddings" term="Embeddings"/>
@@ -350,32 +259,10 @@ No se han tocado ficheros en src/generated/.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/ollama-modelfile#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
 <ul>
 <li class=""><a href="https://github.com/ollama/ollama/blob/main/docs/modelfile.md" target="_blank" rel="noopener noreferrer" class="">Referencia de Modelfile</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/llm-runtimes/ollama/configuracion">Notas: Configuración de Ollama</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/llm-runtimes/ollama/configuracion">Notas: Configuración de Ollama</a></li>
 </ul>]]></content>
         <category label="Ollama" term="Ollama"/>
         <category label="Modelfile" term="Modelfile"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prompt puntual con Ollama desde la terminal]]></title>
-        <id>https://falkenslab.github.io/falkens-notebook/experiments/ollama-prompt-puntual</id>
-        <link href="https://falkenslab.github.io/falkens-notebook/experiments/ollama-prompt-puntual"/>
-        <updated>2026-04-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[La forma más rápida de probar un modelo con Ollama sin abrir sesión interactiva, útil para scripts y automatizaciones.]]></summary>
-        <content type="html"><![CDATA[<p>La forma más rápida de probar un modelo con Ollama sin abrir sesión interactiva, útil para scripts y automatizaciones.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="experimento-prompt-puntual-desde-la-terminal">Experimento: prompt puntual desde la terminal<a href="https://falkenslab.github.io/falkens-notebook/experiments/ollama-prompt-puntual#experimento-prompt-puntual-desde-la-terminal" class="hash-link" aria-label="Enlace directo al Experimento: prompt puntual desde la terminal" title="Enlace directo al Experimento: prompt puntual desde la terminal" translate="no">​</a></h2>
-<p><strong>Contexto:</strong> la forma más rápida de probar un modelo sin abrir sesión interactiva.</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ollama run llama3.2 "¿Qué es la cuantización en LLMs? Responde en dos frases."</span><br></span></code></pre></div></div>
-<p><strong>Resultado:</strong></p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">La cuantización en LLMs es el proceso de reducir la precisión numérica de los pesos del modelo</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">(por ejemplo, de 32 bits a 4 bits) para disminuir el tamaño en memoria y acelerar la inferencia.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">El coste es una pequeña pérdida de calidad en las respuestas, generalmente aceptable en modelos Q4.</span><br></span></code></pre></div></div>
-<p><strong>Qué aprender:</strong> los modelos cuantizados a Q4 permiten ejecutar 7B parámetros con solo 4–5 GB de RAM, haciéndolos viables en hardware doméstico.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://falkenslab.github.io/falkens-notebook/experiments/ollama-prompt-puntual#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
-<ul>
-<li class=""><a href="https://github.com/ollama/ollama" target="_blank" rel="noopener noreferrer" class="">Repositorio en GitHub</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/llm-runtimes/ollama/uso-basico">Notas: Uso básico de Ollama</a></li>
-</ul>]]></content>
-        <category label="Ollama" term="Ollama"/>
-        <category label="LLM" term="LLM"/>
-        <category label="CLI" term="CLI"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Levantar Open WebUI con Ollama en un comando]]></title>
@@ -395,7 +282,7 @@ No se han tocado ficheros en src/generated/.</p>
 <ul>
 <li class=""><a href="https://docs.openwebui.com/" target="_blank" rel="noopener noreferrer" class="">Open WebUI — Documentación</a></li>
 <li class=""><a href="https://github.com/open-webui/open-webui" target="_blank" rel="noopener noreferrer" class="">Open WebUI — GitHub</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/llm-runtimes/open-webui/overview">Notas: Open WebUI</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/llm-runtimes/open-webui/overview">Notas: Open WebUI</a></li>
 </ul>]]></content>
         <category label="Open WebUI" term="Open WebUI"/>
         <category label="Ollama" term="Ollama"/>
@@ -418,7 +305,7 @@ No se han tocado ficheros en src/generated/.</p>
 <ul>
 <li class=""><a href="https://github.com/pgvector/pgvector" target="_blank" rel="noopener noreferrer" class="">pgvector — GitHub</a></li>
 <li class=""><a href="https://www.postgresql.org/docs" target="_blank" rel="noopener noreferrer" class="">PostgreSQL — Documentación</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/vector-databases/pgvector">Notas: pgvector</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/vector-databases/pgvector">Notas: pgvector</a></li>
 </ul>]]></content>
         <category label="pgvector" term="pgvector"/>
         <category label="PostgreSQL" term="PostgreSQL"/>
@@ -442,7 +329,7 @@ No se han tocado ficheros en src/generated/.</p>
 <ul>
 <li class=""><a href="https://weaviate.io/developers/weaviate" target="_blank" rel="noopener noreferrer" class="">Weaviate — Documentación</a></li>
 <li class=""><a href="https://github.com/weaviate/weaviate" target="_blank" rel="noopener noreferrer" class="">Weaviate — GitHub</a></li>
-<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/docs/tools/vector-databases/weaviate">Notas: Weaviate</a></li>
+<li class=""><a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/vector-databases/weaviate">Notas: Weaviate</a></li>
 </ul>]]></content>
         <category label="Weaviate" term="Weaviate"/>
         <category label="Embeddings" term="Embeddings"/>
@@ -450,12 +337,13 @@ No se han tocado ficheros en src/generated/.</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[¿Qué modelo es mejor?]]></title>
-        <id>https://falkenslab.github.io/falkens-notebook/experiments/que-modelo-es-mejor</id>
-        <link href="https://falkenslab.github.io/falkens-notebook/experiments/que-modelo-es-mejor"/>
+        <id>https://falkenslab.github.io/falkens-notebook/experiments/comparacion-modelos</id>
+        <link href="https://falkenslab.github.io/falkens-notebook/experiments/comparacion-modelos"/>
         <updated>2026-04-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Con tantos modelos disponibles actualmente se hace difícil elegir el modelo más adecuado para ciertas tareas. Chatbot Arena es una plataforma de evaluación colaborativa de modelos desarrollada por LMSYS que nos permite comparar respuestas de dos modelos y votar la mejor.]]></summary>
-        <content type="html"><![CDATA[<p>Con tantos modelos disponibles actualmente se hace difícil elegir el modelo más adecuado para ciertas tareas. <strong>Chatbot Arena</strong> es una plataforma de evaluación colaborativa de modelos desarrollada por <a href="https://lmsys.org/" target="_blank" rel="noopener noreferrer" class="">LMSYS</a> que nos permite comparar respuestas de dos modelos y votar la mejor.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="comparar-dos-modelos">Comparar dos modelos<a href="https://falkenslab.github.io/falkens-notebook/experiments/que-modelo-es-mejor#comparar-dos-modelos" class="hash-link" aria-label="Enlace directo al Comparar dos modelos" title="Enlace directo al Comparar dos modelos" translate="no">​</a></h2>
+        <summary type="html"><![CDATA[Con tantos modelos disponibles actualmente se hace difícil elegir el modelo más adecuado para ciertas tareas.]]></summary>
+        <content type="html"><![CDATA[<p>Con tantos modelos disponibles actualmente se hace difícil elegir el modelo más adecuado para ciertas tareas.</p>
+<p><strong>Chatbot Arena</strong> es una plataforma de evaluación colaborativa de modelos desarrollada por <a href="https://lmsys.org/" target="_blank" rel="noopener noreferrer" class="">LMSYS</a> que nos permite comparar respuestas de dos modelos y votar la mejor.</p>
+<p>Para comparar dos modelos podemos seguir los siguientes pasos:</p>
 <ol>
 <li class="">Accedemos a la web de <a href="https://arena.ai/" target="_blank" rel="noopener noreferrer" class=""><strong>Chatbot Arena</strong></a>.</li>
 <li class="">Elegimos el modo <strong>Side by Side</strong>: Comparar dos modelos de nuestra elección.</li>
@@ -479,11 +367,32 @@ No se han tocado ficheros en src/generated/.</p>
 <ol start="5">
 <li class="">Nuestro voto actualiza el ranking Elo.</li>
 </ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-leaderboard">El leaderboard<a href="https://falkenslab.github.io/falkens-notebook/experiments/que-modelo-es-mejor#el-leaderboard" class="hash-link" aria-label="Enlace directo al El leaderboard" title="Enlace directo al El leaderboard" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-leaderboard">El leaderboard<a href="https://falkenslab.github.io/falkens-notebook/experiments/comparacion-modelos#el-leaderboard" class="hash-link" aria-label="Enlace directo al El leaderboard" title="Enlace directo al El leaderboard" translate="no">​</a></h2>
 <p>El resultado acumulado de todos los votos genera un <a href="https://arena.ai/leaderboard" target="_blank" rel="noopener noreferrer" class="">ranking Elo público</a> que refleja preferencia humana real, no benchmarks de laboratorio. Es la métrica más usada como referencia para comparar la calidad percibida de los modelos frontier.</p>
 <p><img decoding="async" loading="lazy" alt="alt text" src="https://falkenslab.github.io/falkens-notebook/assets/images/image-3-b228b2444dfb76c1317842c08c60a5db.png" width="1137" height="715" class="img_ev3q"></p>]]></content>
         <category label="Chatbot Arena" term="Chatbot Arena"/>
         <category label="Comparar" term="Comparar"/>
         <category label="Modelos" term="Modelos"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ejecutar un modelo en local]]></title>
+        <id>https://falkenslab.github.io/falkens-notebook/experiments/ejecutar-modelo-local</id>
+        <link href="https://falkenslab.github.io/falkens-notebook/experiments/ejecutar-modelo-local"/>
+        <updated>2025-08-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[En este experimento vamos a ejecutar un modelo en local, para poder hablar con un LLM en nuestra máquina.]]></summary>
+        <content type="html"><![CDATA[<p>En este experimento vamos a ejecutar un modelo en local, para poder hablar con un LLM en nuestra máquina.</p>
+<p>Para poder ejecutar un modelo (LLM), necesitamos un motor de ejecución (runtime), y para en este experimento usaremos <strong>Ollama</strong>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-instalamos-ollama">1. Instalamos Ollama<a href="https://falkenslab.github.io/falkens-notebook/experiments/ejecutar-modelo-local#1-instalamos-ollama" class="hash-link" aria-label="Enlace directo al 1. Instalamos Ollama" title="Enlace directo al 1. Instalamos Ollama" translate="no">​</a></h2>
+<p>Sigue estas <a class="" href="https://falkenslab.github.io/falkens-notebook/notes/tools/llm-runtimes/ollama/instalacion">instrucciones para instalar Ollama</a> en tu sistema.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-descargamos-un-modelo">2. Descargamos un modelo<a href="https://falkenslab.github.io/falkens-notebook/experiments/ejecutar-modelo-local#2-descargamos-un-modelo" class="hash-link" aria-label="Enlace directo al 2. Descargamos un modelo" title="Enlace directo al 2. Descargamos un modelo" translate="no">​</a></h2>
+<p>Se descarga el modelo del repositorio de modelos de Ollama:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">$ ollama pull llama3.2</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-lo-ejecutamos">3. Lo ejecutamos<a href="https://falkenslab.github.io/falkens-notebook/experiments/ejecutar-modelo-local#3-lo-ejecutamos" class="hash-link" aria-label="Enlace directo al 3. Lo ejecutamos" title="Enlace directo al 3. Lo ejecutamos" translate="no">​</a></h2>
+<p>Chateamos con el modelo:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">$ ollama run llama3.2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&gt;&gt;&gt; ¿Qué es un modelo de lenguaje en una frase?</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Un modelo de lenguaje es un sistema informático que utiliza algoritmos y técnicas de procesamiento del lenguaje natural para entender, </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">generar y interactuar con texto. Estos modelos están diseñados para aprender patrones y estructuras del lenguaje a partir de grandes </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">conjuntos de datos y luego utilizar esta información para realizar tareas específicas como la traducción automática, la pregunta respuesta </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">o la generación de contenido.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&gt;&gt;&gt; /bye</span><br></span></code></pre></div></div>
+<p>En cuestión de minutos tenemos un LLM corriendo en local, sin cuenta, sin API key, sin coste por token.</p>]]></content>
+        <category label="Ollama" term="Ollama"/>
+        <category label="LLM" term="LLM"/>
+        <category label="Primeros pasos" term="Primeros pasos"/>
     </entry>
 </feed>
