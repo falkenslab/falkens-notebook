@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkfalkens_notebook=globalThis.webpackChunkfalkens_notebook||[]).push([[1903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/falkens-notebook/blog","blogTitle":"Blog","authorsListPath":"/falkens-notebook/blog/authors"}')}}]);
