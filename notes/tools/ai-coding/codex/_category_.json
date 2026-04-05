@@ -1,0 +1,8 @@
+{
+  "label": "Codex CLI",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Guía práctica de Codex CLI: el agente de OpenAI que lee, edita y ejecuta código desde la terminal, compatible con cualquier proveedor de modelos."
+  }
+}

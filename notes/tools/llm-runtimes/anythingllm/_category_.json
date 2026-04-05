@@ -1,0 +1,8 @@
+{
+  "label": "AnythingLLM",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Aplicación todo-en-uno orientada a privacidad con soporte para documentos, agentes y múltiples proveedores de modelos."
+  }
+}

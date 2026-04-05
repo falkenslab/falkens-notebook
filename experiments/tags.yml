@@ -1,0 +1,164 @@
+Claude:
+  label: Claude
+  permalink: /claude
+  description: Publicaciones sobre Claude de Anthropic
+
+CLI:
+  label: CLI
+  permalink: /cli
+  description: Herramientas de línea de comandos
+
+OpenAI:
+  label: OpenAI
+  permalink: /openai
+  description: Publicaciones sobre OpenAI y sus modelos
+
+Codex:
+  label: Codex
+  permalink: /codex
+  description: Publicaciones sobre OpenAI Codex CLI
+
+Ollama:
+  label: Ollama
+  permalink: /ollama
+  description: Ejecución de modelos de lenguaje en local con Ollama
+
+LLM:
+  label: LLM
+  permalink: /llm
+  description: Modelos de lenguaje de gran escala
+
+primeros-pasos:
+  label: Primeros pasos
+  permalink: /primeros-pasos
+  description: Experimentos introductorios para empezar
+
+"Chatbot Arena":
+  label: Chatbot Arena
+  permalink: /chatbot-arena
+  description: Comparativa de modelos en Chatbot Arena
+
+comparar:
+  label: Comparar
+  permalink: /comparar
+  description: Comparativa entre modelos o herramientas
+
+modelos:
+  label: Modelos
+  permalink: /modelos
+  description: Modelos de inteligencia artificial
+
+Claude-Code:
+  label: Claude Code
+  permalink: /claude-code
+  description: Publicaciones sobre Claude Code CLI
+
+AnythingLLM:
+  label: AnythingLLM
+  permalink: /anythingllm
+  description: Publicaciones sobre AnythingLLM
+
+RAG:
+  label: RAG
+  permalink: /rag
+  description: Retrieval-Augmented Generation
+
+agente:
+  label: Agente
+  permalink: /agente
+  description: Agentes de inteligencia artificial
+
+skills:
+  label: Skills
+  permalink: /skills
+  description: Habilidades y comandos personalizados
+
+LM-Studio:
+  label: LM Studio
+  permalink: /lm-studio
+  description: Publicaciones sobre LM Studio
+
+API:
+  label: API
+  permalink: /api
+  description: Acceso a modelos mediante API
+
+local:
+  label: Local
+  permalink: /local
+  description: Ejecución de modelos en local
+
+Jan:
+  label: Jan
+  permalink: /jan
+  description: Publicaciones sobre Jan
+
+offline:
+  label: Offline
+  permalink: /offline
+  description: Uso sin conexión a internet
+
+llamafile:
+  label: llamafile
+  permalink: /llamafile
+  description: Publicaciones sobre llamafile
+
+ChromaDB:
+  label: ChromaDB
+  permalink: /chromadb
+  description: Publicaciones sobre ChromaDB
+
+embeddings:
+  label: Embeddings
+  permalink: /embeddings
+  description: Vectores y modelos de embeddings
+
+Weaviate:
+  label: Weaviate
+  permalink: /weaviate
+  description: Publicaciones sobre Weaviate
+
+Open-WebUI:
+  label: Open WebUI
+  permalink: /open-webui
+  description: Publicaciones sobre Open WebUI
+
+Docker:
+  label: Docker
+  permalink: /docker
+  description: Publicaciones sobre Docker
+
+Modelfile:
+  label: Modelfile
+  permalink: /modelfile
+  description: Personalización de modelos con Modelfile
+
+ChatGPT:
+  label: ChatGPT
+  permalink: /chatgpt
+  description: Publicaciones sobre ChatGPT
+
+Gemini:
+  label: Gemini
+  permalink: /gemini
+  description: Publicaciones sobre Gemini
+
+comparativa:
+  label: Comparativa
+  permalink: /comparativa
+  description: Comparativas entre modelos o herramientas
+
+pgvector:
+  label: pgvector
+  permalink: /pgvector
+  description: Publicaciones sobre pgvector
+
+PostgreSQL:
+  label: PostgreSQL
+  permalink: /postgresql
+  description: Publicaciones sobre PostgreSQL
+
+Msty:
+  label: Msty
+  permalink: /msty
+  description: Publicaciones sobre Msty

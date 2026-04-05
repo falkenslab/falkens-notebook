@@ -1,0 +1,8 @@
+{
+  "label": "Ollama",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Guía práctica de Ollama: instala y ejecuta LLMs en local, sin nube y sin coste por token."
+  }
+}

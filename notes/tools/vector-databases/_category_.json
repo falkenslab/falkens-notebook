@@ -1,0 +1,8 @@
+{
+  "label": "Bases de datos vectoriales",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Herramientas para almacenar y buscar embeddings por similitud semántica: el componente de almacenamiento central en sistemas RAG."
+  }
+}

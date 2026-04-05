@@ -57,6 +57,42 @@
   vertical-align: middle;
 }
 
+/* Botón Ideas — amarillo ámbar */
+.ctaBtnIdeas {
+  background-color: #d97706;
+  border-color: #d97706;
+  color: #fff;
+}
+.ctaBtnIdeas:hover {
+  background-color: #b45309;
+  border-color: #b45309;
+  color: #fff;
+}
+
+/* Botón Experimentos — verde esmeralda */
+.ctaBtnExperiments {
+  background-color: #059669;
+  border-color: #059669;
+  color: #fff;
+}
+.ctaBtnExperiments:hover {
+  background-color: #047857;
+  border-color: #047857;
+  color: #fff;
+}
+
+/* Botón Notas — azul pizarra */
+.ctaBtnNotes {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+  color: #fff;
+}
+.ctaBtnNotes:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
 /* Variante en tema oscuro: aún más profundo */
 [data-theme='dark'] .heroBanner {
   background: linear-gradient(135deg, #7c2d12 0%, #9a3412 45%, #c2410c 100%);

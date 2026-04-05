@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Dr. Falken\'s Notebook',
-  tagline: 'Cuaderno de notas del Dr. Falken',
+  tagline: 'Experimentos, ejemplos y pinceladas de IA aplicada',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -46,6 +46,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: './notes',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -53,16 +54,19 @@ const config: Config = {
             'https://github.com/falkenslab/falkens-notebook/edit/main/',
         },
         blog: {
+          path: './experiments',
+          routeBasePath: '/experiments',
           showReadingTime: true,
+          showLastUpdateTime: false,
+          showLastUpdateAuthor: false,
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'Todos los experimentos',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/falkenslab/falkens-notebook/edit/main/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -81,8 +85,10 @@ const config: Config = {
         hashed: true,
         indexDocs: true,
         indexBlog: true,
+        docsDir: 'notes',
+        blogDir: 'experiments',
         docsRouteBasePath: '/docs',
-        blogRouteBasePath: '/blog',
+        blogRouteBasePath: '/experiments',
         language: ['es'],
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
@@ -100,13 +106,13 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        {to: '/experiments', label: 'Experimentos', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Notas',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {type: 'search', position: 'right'},
         {
           href: 'https://github.com/falkenslab/falkens-notebook',
@@ -122,12 +128,12 @@ const config: Config = {
           title: 'Cuaderno',
           items: [
             {
-              label: 'Notas',
-              to: '/docs/intro',
+              label: 'Experimentos',
+              to: '/experiments',
             },
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Notas',
+              to: '/docs/intro',
             },
           ],
         },

@@ -1,0 +1,8 @@
+{
+  "label": "LM Studio",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Aplicación de escritorio para descargar y ejecutar modelos GGUF con API local compatible con OpenAI."
+  }
+}

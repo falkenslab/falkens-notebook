@@ -1,0 +1,8 @@
+{
+  "label": "LLM Runtimes",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Herramientas para ejecutar y gestionar modelos de lenguaje en local o conectados a proveedores en la nube."
+  }
+}

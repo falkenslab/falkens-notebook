@@ -1,0 +1,8 @@
+{
+  "label": "Open WebUI",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Interfaz web para Ollama con experiencia similar a ChatGPT, RAG integrado y soporte multiusuario."
+  }
+}
