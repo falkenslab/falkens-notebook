@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(start:*)",
+      "Bash(where gh:*)",
+      "Bash(cmd /c \"where gh\")",
+      "Bash(cmd:*)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(powershell -Command \"gh pr list --json number,title,isDraft,state,author\")",
+      "Bash(mv 01-instalacion.md instalacion.md)",
+      "Bash(mv 02-modelos.md modelos.md)",
+      "Bash(mv 03-uso-basico.md uso-basico.md)",
+      "Bash(mv 04-api.md api.md)",
+      "Bash(mv 05-configuracion.md configuracion.md)",
+      "Bash(mv docs:*)",
+      "Bash(mv blog:*)",
+      "Bash(powershell -Command \"Move-Item -Path 'docs' -Destination 'notes'\")",
+      "Bash(powershell -Command \"Move-Item -Path 'blog' -Destination 'experiments'\")",
+      "Bash(cp -r C:/Users/fvarrui/GitHub/falkens-notebook/old/basics C:/Users/fvarrui/GitHub/falkens-notebook/notes/)",
+      "Bash(cp -r C:/Users/fvarrui/GitHub/falkens-notebook/old/models C:/Users/fvarrui/GitHub/falkens-notebook/notes/)",
+      "Bash(cp -r C:/Users/fvarrui/GitHub/falkens-notebook/old/use-cases C:/Users/fvarrui/GitHub/falkens-notebook/notes/)",
+      "Bash(grep -h \"^tags:\" C:/Users/fvarrui/GitHub/falkens-notebook/experiments/*/index.md)",
+      "Bash(grep -r \"Agente\\\\b\" C:/Users/fvarrui/GitHub/falkens-notebook/experiments/*/index.md)",
+      "Bash(grep:*)",
+      "Bash(find C:/Users/fvarrui/GitHub/falkens-notebook/notes -maxdepth 2 -name \"_category_.json\" -exec sh -c 'echo \"=== {} ===\"; cat {}' \\\\;)"
+    ]
+  }
+}
