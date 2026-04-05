@@ -32,8 +32,6 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 ```
 
-Ver el experimento: [Chat offline con Jan](/experiments/jan-chat-offline)
-
 ## Referencias
 
 - [Jan.ai — Sitio oficial](https://jan.ai)
