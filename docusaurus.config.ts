@@ -52,24 +52,7 @@ const config: Config = {
           editUrl:
             'https://github.com/falkenslab/falkens-notebook/edit/main/',
         },
-        blog: {
-          path: './experiments',
-          routeBasePath: '/experiments',
-          showReadingTime: true,
-          showLastUpdateTime: false,
-          showLastUpdateAuthor: false,
-          blogSidebarCount: 'ALL',
-          blogSidebarTitle: 'Todos los experimentos',
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl:
-            'https://github.com/falkenslab/falkens-notebook/edit/main/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -79,15 +62,23 @@ const config: Config = {
 
   plugins: [
     [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'experiments',
+        path: './experiments',
+        routeBasePath: '/experiments',
+        sidebarPath: './sidebars.ts',
+        editUrl: 'https://github.com/falkenslab/falkens-notebook/edit/main/',
+      },
+    ],
+    [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         hashed: true,
         indexDocs: true,
-        indexBlog: true,
-        docsDir: 'notes',
-        blogDir: 'experiments',
-        docsRouteBasePath: '/notes',
-        blogRouteBasePath: '/experiments',
+        indexBlog: false,
+        docsDir: ['notes', 'experiments'],
+        docsRouteBasePath: ['/notes', '/experiments'],
         language: ['es'],
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
@@ -120,7 +111,12 @@ const config: Config = {
           label: 'Experimentos',
           position: 'left',
           items: [
-            {to: '/experiments', label: 'Todos'},
+            {
+              type: 'docSidebar',
+              sidebarId: 'experimentsSidebar',
+              docsPluginId: 'experiments',
+              label: 'Todos',
+            },
             {to: '/experiments/tags', label: 'Por temática'},
           ],
         },
