@@ -1,6 +1,4 @@
 ---
-date: 2026-04-04
-slug: comparacion-modelos
 title: ¿Qué modelo es mejor?
 tags: [Chatbot Arena, comparar, modelos]
 ---
@@ -11,7 +9,6 @@ Con tantos modelos disponibles actualmente se hace difícil elegir el modelo má
 
 **Chatbot Arena** es una plataforma de evaluación colaborativa de modelos desarrollada por [LMSYS](https://lmsys.org) que nos permite comparar respuestas de dos modelos y votar la mejor.
 
-<!-- truncate -->
 
 Para comparar dos modelos podemos seguir los siguientes pasos:
 

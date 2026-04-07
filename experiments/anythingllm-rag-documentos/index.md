@@ -1,13 +1,10 @@
 ---
-date: 2026-04-05
-slug: anythingllm-rag-documentos
 title: RAG sobre documentos propios con AnythingLLM
 tags: [AnythingLLM, RAG, Ollama]
 ---
 
 Queremos hacer preguntas a un modelo sobre documentos privados sin enviarlos a servicios externos, y para ello usaremos [AnythingLLM](https://anythingllm.com/) con Ollama como LLM runtime local.
 
-<!-- truncate -->
 
 
 1. [Instalamos Ollama](/notes/tools/llm-runtimes/ollama/instalacion) y [descargamos el modelo](/notes/tools/llm-runtimes/ollama/modelos#descargar-un-modelo) que queramos usar para analizar los documentos.

@@ -1,13 +1,10 @@
 ---
-date: 2026-04-05
-slug: weaviate-busqueda-hibrida
 title: Búsqueda híbrida con Weaviate
 tags: [Weaviate, embeddings, RAG]
 ---
 
 Combinar búsqueda vectorial y BM25 en Weaviate para obtener resultados más relevantes que con un solo método.
 
-<!-- truncate -->
 
 ## Experimento: búsqueda híbrida con Weaviate
 

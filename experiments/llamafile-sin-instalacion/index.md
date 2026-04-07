@@ -1,13 +1,10 @@
 ---
-date: 2026-04-05
-slug: llamafile-sin-instalacion
 title: Ejecutar un LLM sin instalar nada con llamafile
 tags: [llamafile, LLM, local]
 ---
 
 Descargar y ejecutar un modelo de lenguaje completo en cualquier máquina con un solo fichero ejecutable, sin npm, pip ni Docker.
 
-<!-- truncate -->
 
 ## Experimento: ejecutar un LLM sin instalar nada
 

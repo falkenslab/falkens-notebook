@@ -1,13 +1,10 @@
 ---
-date: 2026-04-05
-slug: chromadb-busqueda-semantica
 title: Búsqueda semántica con ChromaDB
 tags: [ChromaDB, embeddings, RAG]
 ---
 
 Indexar textos en ChromaDB con embeddings automáticos y recuperar los más relevantes para una consulta, sin escribir una línea de código de vectorización.
 
-<!-- truncate -->
 
 ## Experimento: búsqueda semántica con ChromaDB
 

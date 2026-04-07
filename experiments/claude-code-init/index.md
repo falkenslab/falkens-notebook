@@ -1,13 +1,10 @@
 ---
-date: 2026-04-05
-slug: claude-code-init
 title: Generar CLAUDE.md con /init
 tags: [Claude-Code]
 ---
 
 Usar `/init` para que Claude Code analice el proyecto automáticamente y genere un fichero de contexto listo para usar.
 
-<!-- truncate -->
 
 Este **built-in slash command** de Claude Code nos ahorra tiempo analizando el proyecto automáticamente y produciendo un fichero de contexto útil desde el primer momento.
 

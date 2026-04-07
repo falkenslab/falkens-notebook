@@ -1,13 +1,10 @@
 ---
-date: 2026-04-05
-slug: lmstudio-api-openai
 title: LM Studio como backend de la API de OpenAI
 tags: [LM-Studio, OpenAI, API, local]
 ---
 
 Reutilizar código escrito para la API de OpenAI apuntando a un modelo local en LM Studio, sin coste por token.
 
-<!-- truncate -->
 
 ## Experimento: usar LM Studio como backend de la API de OpenAI
 

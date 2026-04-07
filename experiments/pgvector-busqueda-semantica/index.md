@@ -1,13 +1,10 @@
 ---
-date: 2026-04-05
-slug: pgvector-busqueda-semantica
 title: Búsqueda semántica en PostgreSQL con pgvector
 tags: [pgvector, PostgreSQL, embeddings, RAG]
 ---
 
 Añadir búsqueda semántica a una base de datos PostgreSQL existente con una sola extensión, sin infraestructura adicional.
 
-<!-- truncate -->
 
 ## Experimento: búsqueda semántica en PostgreSQL
 

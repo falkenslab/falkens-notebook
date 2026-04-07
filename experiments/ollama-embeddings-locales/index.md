@@ -1,13 +1,10 @@
 ---
-date: 2026-04-05
-slug: ollama-embeddings-locales
 title: Embeddings locales con nomic-embed-text
 tags: [Ollama, embeddings, RAG]
 ---
 
 Generar embeddings sin enviar datos a ningún servicio externo usando Ollama y nomic-embed-text, útil para RAG privado.
 
-<!-- truncate -->
 
 ## Experimento: embeddings locales con nomic-embed-text
 

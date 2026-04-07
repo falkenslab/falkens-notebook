@@ -1,13 +1,10 @@
 ---
-date: 2026-04-05
-slug: open-webui-docker
 title: Levantar Open WebUI con Ollama en un comando
 tags: [Open-WebUI, Ollama, Docker]
 ---
 
 Tener un ChatGPT local completo con Ollama integrado usando un solo comando Docker.
 
-<!-- truncate -->
 
 ## Experimento: levantar Open WebUI con Ollama en un comando
 

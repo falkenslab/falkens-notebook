@@ -1,13 +1,10 @@
 ---
-date: 2025-08-28
-slug: ejecutar-modelo-local
 title: Ejecutar un modelo en local
 tags: [Ollama, LLM, primeros-pasos]
 ---
 
 En este experimento vamos a ejecutar un modelo en local, para poder hablar con un LLM en nuestra máquina.
 
-<!-- truncate -->
 
 Para poder ejecutar un modelo (LLM), necesitamos un motor de ejecución (runtime), y para en este experimento usaremos **Ollama**.
 

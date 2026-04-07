@@ -1,13 +1,10 @@
 ---
-date: 2026-04-05
-slug: codex-ollama-local
 title: Codex CLI con Ollama en local
 tags: [Codex, Ollama, agente, local]
 ---
 
 Usar Codex CLI sin enviar código a servidores externos, conectándolo a Ollama para inferencia completamente local.
 
-<!-- truncate -->
 
 ## Experimento: Codex con Ollama en local
 

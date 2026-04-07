@@ -1,13 +1,10 @@
 ---
-date: 2026-04-05
-slug: ollama-modelfile
 title: Crear un asistente personalizado con Modelfile
 tags: [Ollama, Modelfile]
 ---
 
 Fijar un system prompt y ajustar parámetros en Ollama para crear un asistente especializado sin repetirlos en cada sesión.
 
-<!-- truncate -->
 
 ## Experimento: crear un asistente personalizado con Modelfile
 
