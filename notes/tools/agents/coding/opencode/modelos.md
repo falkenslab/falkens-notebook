@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Modelos: remotos y locales
 
-Aquí está la diferencia real de opencode frente a Claude Code o Codex CLI: el agente es **agnóstico de proveedor** por diseño. La lógica del agente (herramientas, permisos, subagentes, contexto) es la misma tanto si detrás hay Claude Sonnet, GPT, Gemini o un `qwen2.5-coder` corriendo en tu máquina.
+Aquí está la diferencia real de OpenCode frente a Claude Code o Codex CLI: el agente es **agnóstico de proveedor** por diseño. La lógica del agente (herramientas, permisos, subagentes, contexto) es la misma tanto si detrás hay Claude Sonnet, GPT, Gemini o un `qwen2.5-coder` corriendo en tu máquina.
 
 ## Modelos remotos
 
@@ -17,7 +17,7 @@ opencode models         # todos los modelos disponibles
 opencode models anthropic --refresh
 ```
 
-Las credenciales se guardan en `~/.local/share/opencode/auth.json`. **opencode Zen** es el catálogo curado del proyecto: modelos ya validados con el agente y una única clave, pensado para no tener que abrir cuenta en cada proveedor.
+Las credenciales se guardan en `~/.local/share/opencode/auth.json`. **OpenCode Zen** es el catálogo curado del proyecto: modelos ya validados con el agente y una única clave, pensado para no tener que abrir cuenta en cada proveedor.
 
 ### Elegir modelo
 
@@ -126,16 +126,16 @@ ollama serve
 ```
 
 :::tip
-Declara siempre `limit.context`: sin ese dato opencode no sabe cuándo compactar la conversación y el modelo local empieza a truncar en silencio a mitad de tarea.
+Declara siempre `limit.context`: sin ese dato OpenCode no sabe cuándo compactar la conversación y el modelo local empieza a truncar en silencio a mitad de tarea.
 :::
 
 :::warning
 Un agente de código no solo genera texto: encadena llamadas a herramientas (`read`, `edit`, `bash`) en formato estructurado. Los modelos pequeños fallan justamente ahí. Por debajo de 14B con *tool calling* decente la experiencia es frustrante: el agente lee ficheros pero no consigue aplicar ediciones. `qwen2.5-coder:14b/32b` y `devstral` son los que mejor aguantan hoy.
 :::
 
-## Experimento: opencode con Ollama, sin salir de la máquina
+## Experimento: OpenCode con Ollama, sin salir de la máquina
 
-**Contexto:** en un proyecto con código que no puede salir de la red interna, la pregunta no es si opencode *puede* usar un modelo local, sino si el bucle de agente (leer → editar → verificar) sigue funcionando sin API remota.
+**Contexto:** en un proyecto con código que no puede salir de la red interna, la pregunta no es si OpenCode *puede* usar un modelo local, sino si el bucle de agente (leer → editar → verificar) sigue funcionando sin API remota.
 
 ```bash
 ollama pull qwen2.5-coder:14b
@@ -205,12 +205,12 @@ Las salidas de este experimento son **representativas**, no ejecutadas en vivo: 
 
 ## Referencias
 
-- [opencode — Proveedores](https://opencode.ai/docs/providers/)
-- [opencode — Modelos](https://opencode.ai/docs/models/)
-- [opencode Zen](https://opencode.ai/docs/zen/)
+- [OpenCode — Proveedores](https://opencode.ai/docs/providers/)
+- [OpenCode — Modelos](https://opencode.ai/docs/models/)
+- [OpenCode Zen](https://opencode.ai/docs/zen/)
 - [Ollama — Sitio oficial](https://ollama.com)
 - [Modelos disponibles en Ollama](https://ollama.com/library)
 - [Instalación de Ollama](/notes/tools/llm-runtimes/ollama/instalacion)
 - [LM Studio](/notes/tools/llm-runtimes/lmstudio/overview)
 - [Modelos y proveedores en Codex CLI](/notes/tools/agents/coding/codex/modelos)
-- [Issue #9 — Ejecutar en real los experimentos de opencode](https://github.com/falkenslab/falkens-notebook/issues/9)
+- [Issue #9 — Ejecutar en real los experimentos de OpenCode](https://github.com/falkenslab/falkens-notebook/issues/9)

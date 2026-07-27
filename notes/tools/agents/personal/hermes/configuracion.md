@@ -133,7 +133,7 @@ display:
 
 ## Servidores MCP
 
-Hermes se conecta a servidores [MCP](https://modelcontextprotocol.io) para sumar herramientas externas, igual que opencode o Claude Code. Se declaran en la sección correspondiente de `config.yaml`.
+Hermes se conecta a servidores [MCP](https://modelcontextprotocol.io) para sumar herramientas externas, igual que OpenCode o Claude Code. Se declaran en la sección correspondiente de `config.yaml`.
 
 ## Experimento: acotar el agente antes de soltarlo
 
@@ -199,4 +199,4 @@ Salidas representativas, no ejecutadas en vivo: reproducen el formato y comporta
 - [`cli-config.yaml.example` en el repositorio](https://github.com/NousResearch/hermes-agent/blob/main/cli-config.yaml.example)
 - [Model Context Protocol](https://modelcontextprotocol.io)
 - [Modelos remotos y locales en Hermes](/notes/tools/agents/personal/hermes/modelos)
-- [Configuración de opencode](/notes/tools/agents/coding/opencode/configuracion)
+- [Configuración de OpenCode](/notes/tools/agents/coding/opencode/configuracion)

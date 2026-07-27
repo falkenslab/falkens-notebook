@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Instalación
 
-**[opencode](https://opencode.ai)** es un agente de programación de terminal **open source (licencia MIT)**, mantenido por Anomaly. Hace lo mismo que [Claude Code](/notes/tools/agents/coding/claude-code/instalacion) o [Codex CLI](/notes/tools/agents/coding/codex/instalacion) —lee ficheros, edita código, ejecuta comandos, mantiene el contexto del proyecto— con una diferencia de diseño importante: **no está atado a ningún proveedor de modelos**. El mismo binario habla con Anthropic, OpenAI, Google, OpenRouter o con un modelo que corre en tu portátil bajo [Ollama](/notes/tools/llm-runtimes/ollama/instalacion).
+**[OpenCode](https://opencode.ai)** es un agente de programación de terminal **open source (licencia MIT)**, mantenido por Anomaly. Hace lo mismo que [Claude Code](/notes/tools/agents/coding/claude-code/instalacion) o [Codex CLI](/notes/tools/agents/coding/codex/instalacion) —lee ficheros, edita código, ejecuta comandos, mantiene el contexto del proyecto— con una diferencia de diseño importante: **no está atado a ningún proveedor de modelos**. El mismo binario habla con Anthropic, OpenAI, Google, OpenRouter o con un modelo que corre en tu portátil bajo [Ollama](/notes/tools/llm-runtimes/ollama/instalacion).
 
 Además del TUI de terminal, existe una aplicación de escritorio (beta) para macOS, Windows y Linux, y un modo servidor que separa el motor del cliente.
 
@@ -62,9 +62,9 @@ opencode auth login
 opencode auth list
 ```
 
-Si no quieres elegir proveedor todavía, **opencode Zen** es el catálogo curado del propio proyecto: modelos ya probados con el agente, con una sola clave.
+Si no quieres elegir proveedor todavía, **OpenCode Zen** es el catálogo curado del propio proyecto: modelos ya probados con el agente, con una sola clave.
 
-**2. Inicializar el proyecto.** El comando `/init` recorre el repositorio y genera un fichero `AGENTS.md` con las convenciones, comandos de build y arquitectura detectadas. Es el equivalente a `CLAUDE.md` en Claude Code o `AGENTS.md` en Codex —de hecho, opencode lee `CLAUDE.md` como *fallback* de compatibilidad.
+**2. Inicializar el proyecto.** El comando `/init` recorre el repositorio y genera un fichero `AGENTS.md` con las convenciones, comandos de build y arquitectura detectadas. Es el equivalente a `CLAUDE.md` en Claude Code o `AGENTS.md` en Codex —de hecho, OpenCode lee `CLAUDE.md` como *fallback* de compatibilidad.
 
 ## Experimento: instalar y ejecutar una tarea sin abrir el TUI
 
@@ -105,8 +105,8 @@ Sus dependencias principales son @docusaurus/core, @docusaurus/preset-classic y
 
 ## Referencias
 
-- [opencode — Sitio oficial](https://opencode.ai)
-- [opencode — Documentación](https://opencode.ai/docs/)
-- [opencode — Repositorio en GitHub](https://github.com/anomalyco/opencode)
+- [OpenCode — Sitio oficial](https://opencode.ai)
+- [OpenCode — Documentación](https://opencode.ai/docs/)
+- [OpenCode — Repositorio en GitHub](https://github.com/anomalyco/opencode)
 - [Instalación de Claude Code](/notes/tools/agents/coding/claude-code/instalacion)
 - [Instalación de Codex CLI](/notes/tools/agents/coding/codex/instalacion)

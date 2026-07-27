@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Ventajas, desventajas y comparativa
 
-opencode compite en el mismo terreno que [Claude Code](/notes/tools/agents/coding/claude-code/instalacion) y [Codex CLI](/notes/tools/agents/coding/codex/instalacion): un agente que vive en la terminal, lee el repositorio, edita ficheros y ejecuta comandos. Lo que cambia es de quién depende y cuánto puedes tocar.
+OpenCode compite en el mismo terreno que [Claude Code](/notes/tools/agents/coding/claude-code/instalacion) y [Codex CLI](/notes/tools/agents/coding/codex/instalacion): un agente que vive en la terminal, lee el repositorio, edita ficheros y ejecuta comandos. Lo que cambia es de quién depende y cuánto puedes tocar.
 
 ## Ventajas
 
@@ -18,8 +18,8 @@ opencode compite en el mismo terreno que [Claude Code](/notes/tools/agents/codin
 
 ## Desventajas
 
-- **Calidad = calidad del modelo que le pongas.** Claude Code está afinado contra los modelos de Anthropic y Codex contra los de OpenAI; el prompt del sistema, la gestión de contexto y las herramientas están cocinados juntos. opencode tiene que ser genérico, y con el mismo modelo la diferencia se nota en tareas largas.
-- **Coste por API, sin suscripción plana.** Con Claude Code o Codex puedes trabajar dentro de una suscripción; aquí pagas tokens (salvo opencode Zen o modelos locales), y un agente consume muchos.
+- **Calidad = calidad del modelo que le pongas.** Claude Code está afinado contra los modelos de Anthropic y Codex contra los de OpenAI; el prompt del sistema, la gestión de contexto y las herramientas están cocinados juntos. OpenCode tiene que ser genérico, y con el mismo modelo la diferencia se nota en tareas largas.
+- **Coste por API, sin suscripción plana.** Con Claude Code o Codex puedes trabajar dentro de una suscripción; aquí pagas tokens (salvo OpenCode Zen o modelos locales), y un agente consume muchos.
 - **Ritmo de cambio alto.** Es un proyecto joven y muy activo: nombres de comandos y claves de configuración se mueven entre versiones. Fija la versión si automatizas en CI.
 - **Ecosistema más pequeño.** Menos plugins, menos plantillas de agentes y menos material escrito que alrededor de Claude Code.
 - **Windows algo menos pulido.** Funciona (Scoop, Chocolatey, npm) pero conviene fijar `"shell": "pwsh"` y esperar más fricción que en macOS o Linux.
@@ -27,7 +27,7 @@ opencode compite en el mismo terreno que [Claude Code](/notes/tools/agents/codin
 
 ## Comparativa
 
-| | **opencode** | **Claude Code** | **Codex CLI** |
+| | **OpenCode** | **Claude Code** | **Codex CLI** |
 |---|---|---|---|
 | Licencia | Open source (MIT) | Propietaria | Open source |
 | Fabricante | Anomaly | Anthropic | OpenAI |
@@ -45,7 +45,7 @@ opencode compite en el mismo terreno que [Claude Code](/notes/tools/agents/codin
 
 ## Cuándo usar cada uno
 
-- **opencode** — cuando el código no puede salir de tu red, cuando quieres elegir modelo por tarea, cuando necesitas ejecutar el motor en un servidor con GPU, o cuando la licencia abierta es un requisito.
+- **OpenCode** — cuando el código no puede salir de tu red, cuando quieres elegir modelo por tarea, cuando necesitas ejecutar el motor en un servidor con GPU, o cuando la licencia abierta es un requisito.
 - **Claude Code** — cuando quieres el mejor resultado posible con la menor configuración y ya pagas una suscripción de Anthropic.
 - **Codex CLI** — cuando tu equipo vive en el ecosistema de OpenAI.
 
@@ -53,7 +53,7 @@ No son excluyentes: comparten el concepto de fichero de reglas en la raíz del r
 
 ## Experimento: el mismo repo con dos agentes distintos
 
-**Contexto:** la comparativa de tabla vale poco sin verla. Aquí se lanza la misma tarea en el mismo repositorio con opencode (modelo remoto) y con Claude Code, en modo no interactivo, para comparar salida y coste.
+**Contexto:** la comparativa de tabla vale poco sin verla. Aquí se lanza la misma tarea en el mismo repositorio con OpenCode (modelo remoto) y con Claude Code, en modo no interactivo, para comparar salida y coste.
 
 ```bash
 cd falkens-notebook
@@ -66,7 +66,7 @@ claude -p "lista los ficheros de notes/ que no terminan con una sección '## Ref
 **Resultado:**
 
 ```
-# opencode  (anthropic/claude-sonnet-4-5)
+# OpenCode  (anthropic/claude-sonnet-4-5)
 $ grep -rL "## Referencias" notes --include=*.md
 notes/intro.md
 notes/tools/vector-databases/intro.md
@@ -86,9 +86,9 @@ Ambos son páginas índice; el resto de notas cumplen la convención.
 
 ## Referencias
 
-- [opencode — Sitio oficial](https://opencode.ai)
-- [opencode — Repositorio en GitHub](https://github.com/anomalyco/opencode)
+- [OpenCode — Sitio oficial](https://opencode.ai)
+- [OpenCode — Repositorio en GitHub](https://github.com/anomalyco/opencode)
 - [Claude Code — Documentación](https://docs.anthropic.com/es/docs/claude-code/overview)
 - [Codex CLI — Repositorio oficial](https://github.com/openai/codex)
-- [Instalación de opencode](/notes/tools/agents/coding/opencode/instalacion)
-- [Modelos remotos y locales en opencode](/notes/tools/agents/coding/opencode/modelos)
+- [Instalación de OpenCode](/notes/tools/agents/coding/opencode/instalacion)
+- [Modelos remotos y locales en OpenCode](/notes/tools/agents/coding/opencode/modelos)
