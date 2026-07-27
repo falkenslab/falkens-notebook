@@ -199,6 +199,10 @@ Done in 3m 42s · 0 tokens billed (local)
 
 **Qué aprender:** el ciclo completo funciona en local y sin coste por token, pero el reloj lo dice todo: casi cuatro minutos para una función trivial que un modelo remoto resuelve en segundos. El modelo local compensa cuando la restricción es la privacidad o el coste, no cuando lo es la velocidad. Consulta también los [casos de uso de Ollama](/notes/tools/llm-runtimes/ollama/casos-de-uso).
 
+:::note
+Las salidas de este experimento son **representativas**, no ejecutadas en vivo: los tiempos y el número de iteraciones dependen mucho del hardware. Está pendiente publicarlo con mediciones reales sobre `qwen2.5-coder` en 7B, 14B y 32B, y con una línea base remota para comparar tiempo y coste. Seguimiento en la [issue #9 del cuaderno](https://github.com/falkenslab/falkens-notebook/issues/9).
+:::
+
 ## Referencias
 
 - [opencode — Proveedores](https://opencode.ai/docs/providers/)
@@ -209,3 +213,4 @@ Done in 3m 42s · 0 tokens billed (local)
 - [Instalación de Ollama](/notes/tools/llm-runtimes/ollama/instalacion)
 - [LM Studio](/notes/tools/llm-runtimes/lmstudio/overview)
 - [Modelos y proveedores en Codex CLI](/notes/tools/ai-coding/codex/modelos)
+- [Issue #9 — Ejecutar en real los experimentos de opencode](https://github.com/falkenslab/falkens-notebook/issues/9)
