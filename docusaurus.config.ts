@@ -49,6 +49,15 @@ const config: Config = {
           path: './notes',
           routeBasePath: '/notes',
           sidebarPath: './sidebars.ts',
+          // CLAUDE.md son instrucciones para el agente, no contenido publicable.
+          // `exclude` sustituye a los patrones por defecto, así que se repiten aquí.
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+            '**/CLAUDE.md',
+          ],
           editUrl:
             'https://github.com/falkenslab/falkens-notebook/edit/main/',
         },
