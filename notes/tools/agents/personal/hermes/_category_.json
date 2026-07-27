@@ -1,8 +1,9 @@
 {
   "label": "Hermes Agent",
-  "position": 7,
+  "position": 1,
   "link": {
     "type": "generated-index",
     "description": "Guía práctica de Hermes Agent: el agente personal open source de Nous Research, con memoria persistente, skills autogeneradas y ejecución de código. Complemento —no sustituto— de los agentes de programación."
   }
 }
+

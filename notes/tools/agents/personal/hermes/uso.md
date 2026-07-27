@@ -47,7 +47,7 @@ Las *skills* son procedimientos reutilizables que el agente carga cuando los nec
 
 - Se guardan en `~/.hermes/skills/`.
 - Pueden compartirse con otras herramientas mediante `external_dirs` (directorios externos de solo lectura).
-- Son compatibles con el estándar abierto [agentskills.io](https://agentskills.io), el mismo que usan las [skills de Claude Code](/notes/tools/ai-coding/claude-code/skills).
+- Son compatibles con el estándar abierto [agentskills.io](https://agentskills.io), el mismo que usan las [skills de Claude Code](/notes/tools/agents/coding/claude-code/skills).
 
 ## Aislamiento con git worktree
 
@@ -126,5 +126,5 @@ este cuaderno no se usa --- como separador: encadena encabezados en su lugar.
 - [Hermes Agent — Documentación](https://hermes-agent.nousresearch.com/docs/)
 - [Hermes Agent — Repositorio en GitHub](https://github.com/NousResearch/hermes-agent)
 - [agentskills.io — Estándar abierto de skills](https://agentskills.io)
-- [Skills en Claude Code](/notes/tools/ai-coding/claude-code/skills)
-- [Configuración de Hermes](/notes/tools/ai-coding/hermes/configuracion)
+- [Skills en Claude Code](/notes/tools/agents/coding/claude-code/skills)
+- [Configuración de Hermes](/notes/tools/agents/personal/hermes/configuracion)

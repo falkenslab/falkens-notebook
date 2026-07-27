@@ -29,7 +29,7 @@ model:
   context_length: 200000
 ```
 
-`provider: auto` deduce el proveedor a partir de las credenciales disponibles. El detalle completo, incluidos endpoints locales, está en [modelos remotos y locales](/notes/tools/ai-coding/hermes/modelos).
+`provider: auto` deduce el proveedor a partir de las credenciales disponibles. El detalle completo, incluidos endpoints locales, está en [modelos remotos y locales](/notes/tools/agents/personal/hermes/modelos).
 
 ## Terminal: dónde se ejecutan los comandos
 
@@ -198,5 +198,5 @@ Salidas representativas, no ejecutadas en vivo: reproducen el formato y comporta
 - [Hermes Agent — Documentación](https://hermes-agent.nousresearch.com/docs/)
 - [`cli-config.yaml.example` en el repositorio](https://github.com/NousResearch/hermes-agent/blob/main/cli-config.yaml.example)
 - [Model Context Protocol](https://modelcontextprotocol.io)
-- [Modelos remotos y locales en Hermes](/notes/tools/ai-coding/hermes/modelos)
-- [Configuración de opencode](/notes/tools/ai-coding/opencode/configuracion)
+- [Modelos remotos y locales en Hermes](/notes/tools/agents/personal/hermes/modelos)
+- [Configuración de opencode](/notes/tools/agents/coding/opencode/configuracion)

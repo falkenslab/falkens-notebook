@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Instalación
 
-**[opencode](https://opencode.ai)** es un agente de programación de terminal **open source (licencia MIT)**, mantenido por Anomaly. Hace lo mismo que [Claude Code](/notes/tools/ai-coding/claude-code/instalacion) o [Codex CLI](/notes/tools/ai-coding/codex/instalacion) —lee ficheros, edita código, ejecuta comandos, mantiene el contexto del proyecto— con una diferencia de diseño importante: **no está atado a ningún proveedor de modelos**. El mismo binario habla con Anthropic, OpenAI, Google, OpenRouter o con un modelo que corre en tu portátil bajo [Ollama](/notes/tools/llm-runtimes/ollama/instalacion).
+**[opencode](https://opencode.ai)** es un agente de programación de terminal **open source (licencia MIT)**, mantenido por Anomaly. Hace lo mismo que [Claude Code](/notes/tools/agents/coding/claude-code/instalacion) o [Codex CLI](/notes/tools/agents/coding/codex/instalacion) —lee ficheros, edita código, ejecuta comandos, mantiene el contexto del proyecto— con una diferencia de diseño importante: **no está atado a ningún proveedor de modelos**. El mismo binario habla con Anthropic, OpenAI, Google, OpenRouter o con un modelo que corre en tu portátil bajo [Ollama](/notes/tools/llm-runtimes/ollama/instalacion).
 
 Además del TUI de terminal, existe una aplicación de escritorio (beta) para macOS, Windows y Linux, y un modo servidor que separa el motor del cliente.
 
@@ -108,5 +108,5 @@ Sus dependencias principales son @docusaurus/core, @docusaurus/preset-classic y
 - [opencode — Sitio oficial](https://opencode.ai)
 - [opencode — Documentación](https://opencode.ai/docs/)
 - [opencode — Repositorio en GitHub](https://github.com/anomalyco/opencode)
-- [Instalación de Claude Code](/notes/tools/ai-coding/claude-code/instalacion)
-- [Instalación de Codex CLI](/notes/tools/ai-coding/codex/instalacion)
+- [Instalación de Claude Code](/notes/tools/agents/coding/claude-code/instalacion)
+- [Instalación de Codex CLI](/notes/tools/agents/coding/codex/instalacion)

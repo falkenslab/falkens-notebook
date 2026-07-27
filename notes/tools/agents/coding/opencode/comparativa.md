@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Ventajas, desventajas y comparativa
 
-opencode compite en el mismo terreno que [Claude Code](/notes/tools/ai-coding/claude-code/instalacion) y [Codex CLI](/notes/tools/ai-coding/codex/instalacion): un agente que vive en la terminal, lee el repositorio, edita ficheros y ejecuta comandos. Lo que cambia es de quién depende y cuánto puedes tocar.
+opencode compite en el mismo terreno que [Claude Code](/notes/tools/agents/coding/claude-code/instalacion) y [Codex CLI](/notes/tools/agents/coding/codex/instalacion): un agente que vive en la terminal, lee el repositorio, edita ficheros y ejecuta comandos. Lo que cambia es de quién depende y cuánto puedes tocar.
 
 ## Ventajas
 
@@ -90,5 +90,5 @@ Ambos son páginas índice; el resto de notas cumplen la convención.
 - [opencode — Repositorio en GitHub](https://github.com/anomalyco/opencode)
 - [Claude Code — Documentación](https://docs.anthropic.com/es/docs/claude-code/overview)
 - [Codex CLI — Repositorio oficial](https://github.com/openai/codex)
-- [Instalación de opencode](/notes/tools/ai-coding/opencode/instalacion)
-- [Modelos remotos y locales en opencode](/notes/tools/ai-coding/opencode/modelos)
+- [Instalación de opencode](/notes/tools/agents/coding/opencode/instalacion)
+- [Modelos remotos y locales en opencode](/notes/tools/agents/coding/opencode/modelos)

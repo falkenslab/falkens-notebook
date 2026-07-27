@@ -212,5 +212,5 @@ Las salidas de este experimento son **representativas**, no ejecutadas en vivo: 
 - [Modelos disponibles en Ollama](https://ollama.com/library)
 - [Instalación de Ollama](/notes/tools/llm-runtimes/ollama/instalacion)
 - [LM Studio](/notes/tools/llm-runtimes/lmstudio/overview)
-- [Modelos y proveedores en Codex CLI](/notes/tools/ai-coding/codex/modelos)
+- [Modelos y proveedores en Codex CLI](/notes/tools/agents/coding/codex/modelos)
 - [Issue #9 — Ejecutar en real los experimentos de opencode](https://github.com/falkenslab/falkens-notebook/issues/9)

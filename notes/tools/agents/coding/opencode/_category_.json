@@ -1,8 +1,9 @@
 {
   "label": "opencode",
-  "position": 6,
+  "position": 3,
   "link": {
     "type": "generated-index",
     "description": "Guía práctica de opencode: el agente de programación open source (MIT) que funciona en terminal con cualquier proveedor de modelos, incluidos modelos locales con Ollama."
   }
 }
+

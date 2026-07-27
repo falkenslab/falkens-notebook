@@ -1,0 +1,8 @@
+{
+  "label": "Personales",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Agentes generalistas que viven en tu infraestructura: memoria persistente entre sesiones, tareas programadas y acceso desde plataformas de mensajería. Programar es una de sus capacidades, no su propósito."
+  }
+}

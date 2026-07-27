@@ -26,4 +26,4 @@ npm run build
 ## Referencias
 
 - [Codex CLI — Repositorio oficial](https://github.com/openai/codex)
-- [Notas: AGENTS.md](/notes/tools/ai-coding/codex/agents-md)
+- [Notas: AGENTS.md](/notes/tools/agents/coding/codex/agents-md)

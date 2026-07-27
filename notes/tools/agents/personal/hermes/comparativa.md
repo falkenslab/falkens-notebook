@@ -63,7 +63,7 @@ Lo que no comparte, y define su categoría:
 ## Cuándo usar cada uno
 
 - **Hermes** — cuando quieres un agente que *persista*: que recuerde tus proyectos, ejecute tareas programadas y esté disponible desde el móvil. Tareas de operación, informes, automatización doméstica o de infraestructura.
-- **opencode** — cuando el trabajo es código y necesitas elegir el modelo, incluido uno local. Ver [su comparativa](/notes/tools/ai-coding/opencode/comparativa).
+- **opencode** — cuando el trabajo es código y necesitas elegir el modelo, incluido uno local. Ver [su comparativa](/notes/tools/agents/coding/opencode/comparativa).
 - **Claude Code** — cuando quieres el mejor resultado en código con la mínima configuración.
 - **Codex CLI** — cuando tu equipo vive en el ecosistema de OpenAI.
 
@@ -121,6 +121,6 @@ Salidas representativas, no ejecutadas en vivo.
 - [Hermes Agent — Sitio oficial](https://hermes-agent.nousresearch.com/)
 - [Hermes Agent — Repositorio en GitHub](https://github.com/NousResearch/hermes-agent)
 - [Nous Research](https://nousresearch.com)
-- [Ventajas, desventajas y comparativa de opencode](/notes/tools/ai-coding/opencode/comparativa)
+- [Ventajas, desventajas y comparativa de opencode](/notes/tools/agents/coding/opencode/comparativa)
 - [Claude Code — Documentación](https://docs.anthropic.com/es/docs/claude-code/overview)
 - [Codex CLI — Repositorio oficial](https://github.com/openai/codex)

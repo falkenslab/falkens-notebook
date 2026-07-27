@@ -1,0 +1,8 @@
+{
+  "label": "De programación",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Agentes que trabajan sobre un repositorio: leen el código, lo editan, ejecutan comandos y mantienen el contexto del proyecto durante la sesión."
+  }
+}

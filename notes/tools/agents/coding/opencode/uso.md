@@ -59,7 +59,7 @@ También pueden declararse en `opencode.json` con la clave `command`.
 
 ## AGENTS.md: las reglas del proyecto
 
-`AGENTS.md` es el fichero de instrucciones persistentes, el equivalente a [`CLAUDE.md`](/notes/tools/ai-coding/claude-code/claude-md) o al [`AGENTS.md` de Codex](/notes/tools/ai-coding/codex/agents-md):
+`AGENTS.md` es el fichero de instrucciones persistentes, el equivalente a [`CLAUDE.md`](/notes/tools/agents/coding/claude-code/claude-md) o al [`AGENTS.md` de Codex](/notes/tools/agents/coding/codex/agents-md):
 
 - **Proyecto:** `AGENTS.md` en la raíz del repositorio.
 - **Global:** `~/.config/opencode/AGENTS.md`, para reglas personales en todas las sesiones.
@@ -144,5 +144,5 @@ Pulsa Tab para cambiar a build y aplicar el plan.
 - [opencode — Comandos personalizados](https://opencode.ai/docs/commands/)
 - [opencode — AGENTS.md](https://opencode.ai/docs/rules/)
 - [opencode — CLI](https://opencode.ai/docs/cli/)
-- [CLAUDE.md en Claude Code](/notes/tools/ai-coding/claude-code/claude-md)
-- [AGENTS.md en Codex CLI](/notes/tools/ai-coding/codex/agents-md)
+- [CLAUDE.md en Claude Code](/notes/tools/agents/coding/claude-code/claude-md)
+- [AGENTS.md en Codex CLI](/notes/tools/agents/coding/codex/agents-md)

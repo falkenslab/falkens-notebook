@@ -90,4 +90,4 @@ Analiza todos los cambios pendientes en el repositorio git actual y crea un conj
 
 ## Referencias
 
-- [Notas: Skills y comandos](/notes/tools/ai-coding/claude-code/skills)
+- [Notas: Skills y comandos](/notes/tools/agents/coding/claude-code/skills)

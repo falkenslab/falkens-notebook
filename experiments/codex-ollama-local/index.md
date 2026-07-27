@@ -33,4 +33,4 @@ en el puerto definido en la variable de entorno PORT (por defecto 3000).
 
 - [Codex CLI — Repositorio oficial](https://github.com/openai/codex)
 - [Ollama — Sitio oficial](https://ollama.com)
-- [Notas: Codex CLI — Modelos](/notes/tools/ai-coding/codex/modelos)
+- [Notas: Codex CLI — Modelos](/notes/tools/agents/coding/codex/modelos)

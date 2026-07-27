@@ -25,4 +25,4 @@ Este **built-in slash command** de Claude Code nos ahorra tiempo analizando el p
 ## Referencias
 
 - [Configuración de CLAUDE.md](https://docs.anthropic.com/es/docs/claude-code/memory)
-- [Notas: CLAUDE.md y directorio .claude](/notes/tools/ai-coding/claude-code/claude-md)
+- [Notas: CLAUDE.md y directorio .claude](/notes/tools/agents/coding/claude-code/claude-md)

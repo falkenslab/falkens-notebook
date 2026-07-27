@@ -1,0 +1,8 @@
+{
+  "label": "Agentes",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Agentes de IA: programas que razonan, usan herramientas y actúan de forma autónoma sobre tu entorno. Los de programación trabajan sobre un repositorio; los personales viven en tu infraestructura y recuerdan entre sesiones."
+  }
+}
