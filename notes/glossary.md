@@ -116,6 +116,32 @@ Ver también: [Entrenamiento](#entrenamiento-training), [Destilación](#destilac
 
 ---
 
+## G
+
+### GPU en la nube
+
+Alquilar potencia de cálculo (GPUs) por horas en lugar de comprar el hardware. Es la opción intermedia entre ejecutar modelos en tu propio equipo y pagar una API por token.
+
+- Modelos de alquiler: **on-demand** (precio fijo), **interruptible** (pujas, más barato pero te pueden desalojar) y **reservado** (compromiso con descuento).
+- Lo que de verdad importa no es el precio por hora, sino el **coste por trabajo terminado**: una GPU el doble de cara que termina en un tercio de tiempo sale más barata.
+
+Ver también: [Fine-tuning](#fine-tuning), [Vast.ai](./tools/gpu-cloud/vast-ai/intro).
+
+---
+
+## H
+
+### Hugging Face Hub
+
+Repositorio público de modelos, datasets y demos, construido sobre Git con LFS. Es donde se publica prácticamente todo el open source de la IA, y de donde descargan los pesos herramientas como Ollama o LM Studio.
+
+- Un identificador tiene la forma `organización/nombre`, por ejemplo `Qwen/Qwen2.5-7B-Instruct`.
+- "Abierto" no siempre significa "uso comercial libre": hay que leer la licencia de cada modelo.
+
+Ver también: [Modelo de lenguaje](#modelo-de-lenguaje), [Hugging Face](./tools/huggingface/intro).
+
+---
+
 ## I
 
 ### IA Generativa

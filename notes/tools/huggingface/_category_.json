@@ -1,0 +1,8 @@
+{
+  "label": "Hugging Face",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "El ecosistema donde vive el open source de la IA: el Hub de modelos y datasets, las librerías transformers y datasets, los Spaces y la API unificada de inferencia."
+  }
+}

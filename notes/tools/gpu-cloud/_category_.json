@@ -1,0 +1,8 @@
+{
+  "label": "GPU en la nube",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Alquilar GPUs por horas para entrenar, hacer fine-tuning o servir modelos que no caben en tu máquina."
+  }
+}
