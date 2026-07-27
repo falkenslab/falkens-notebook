@@ -13,6 +13,8 @@ El sitio tiene dos secciones de contenido:
 - **Experimentos** (`experiments/`, ruta `/experiments`) — artículos/posts con experimentos concretos: código ejecutable, resultado real o representativo e interpretación breve. Son el corazón del cuaderno.
 - **Notas** (`notes/`, ruta `/notes`) — documentación de referencia organizada por tema: conceptos, modelos, herramientas. Aquí va la teoría, el glosario y el contexto que da soporte a los experimentos.
 
+**Al trabajar en `notes/`, lee primero `notes/CLAUDE.md`**: contiene la taxonomía de la sección, el formato de nota, las reglas de enlazado y el índice de las notas existentes.
+
 ## Commands
 
 ```bash
