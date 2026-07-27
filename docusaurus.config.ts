@@ -62,6 +62,33 @@ const config: Config = {
 
   plugins: [
     [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // Las notas de agentes vivían bajo /notes/tools/ai-coding/ hasta que
+        // se separaron en agentes de programación y agentes personales.
+        // Mantiene vivos los enlaces externos publicados antes del cambio.
+        createRedirects(existingPath: string) {
+          if (existingPath.includes('/notes/tools/agents/coding/')) {
+            return [
+              existingPath.replace(
+                '/notes/tools/agents/coding/',
+                '/notes/tools/ai-coding/',
+              ),
+            ];
+          }
+          if (existingPath.includes('/notes/tools/agents/personal/')) {
+            return [
+              existingPath.replace(
+                '/notes/tools/agents/personal/',
+                '/notes/tools/ai-coding/',
+              ),
+            ];
+          }
+          return undefined;
+        },
+      },
+    ],
+    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'experiments',

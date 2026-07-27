@@ -11,7 +11,7 @@ La filosofía del cuaderno es **práctica**: experimentos y ejemplos primero, te
 El sitio tiene dos secciones de contenido:
 
 - **Experimentos** (`experiments/`, ruta `/experiments`) — artículos/posts con experimentos concretos: código ejecutable, resultado real o representativo e interpretación breve. Son el corazón del cuaderno.
-- **Notas** (`notes/`, ruta `/docs`) — documentación de referencia organizada por tema: conceptos, modelos, herramientas, casos de uso. Aquí va la teoría, el glosario y el contexto que da soporte a los experimentos.
+- **Notas** (`notes/`, ruta `/notes`) — documentación de referencia organizada por tema: conceptos, modelos, herramientas. Aquí va la teoría, el glosario y el contexto que da soporte a los experimentos.
 
 ## Commands
 
@@ -26,9 +26,9 @@ npm run clear    # Clear Docusaurus cache (useful when build behaves unexpectedl
 ## Architecture
 
 - **`docusaurus.config.ts`** — Main config: site metadata, plugins, navbar/footer, theme, search
-- **`sidebars.ts`** — Sidebar is auto-generated from the `/docs` filesystem structure
-- **`notes/`** — Notas: documentación de referencia organizada por tema (basic-concepts, models, tools, use-cases)
-- **`experiments/`** — Experimentos: posts con date-prefixed filenames (`YYYY-MM-DD-title.md`), más `authors.yml` y `tags.yml`. La ruta pública es `/experiments`.
+- **`sidebars.ts`** — Sidebar is auto-generated from the `notes/` filesystem structure
+- **`notes/`** — Notas: documentación de referencia organizada por tema (`basics`, `models`, `resources`, `tools`), más `glossary.md` e `intro.md`. La ruta pública es `/notes`. Dentro de `tools/`: `agents/` (subdivididas en `coding/` y `personal/`), `llm-runtimes/` y `vector-databases/`.
+- **`experiments/`** — Experimentos: una carpeta por experimento con `index.md` (sin prefijo de fecha), más `tags.yml`. La ruta pública es `/experiments`.
 - **`src/components/`** — Custom React components (homepage features)
 - **`src/pages/`** — Custom pages (`index.tsx` is the homepage)
 - **`src/css/`** — Global custom CSS
@@ -41,7 +41,7 @@ CI/CD via `.github/workflows/deploy.yml`: push to `main` triggers `npm ci && npm
 
 ## Content conventions
 
-### Experimentos (blog/)
+### Experimentos (experiments/)
 
 Los experimentos son el formato principal del cuaderno. Cada experimento debe:
 
@@ -90,7 +90,8 @@ Las notas también deben incluir al menos un `## Experimento:` cuando sea posibl
 ## Key Config Details
 
 - **Base URL:** `/falkens-notebook` (GitHub Pages subdirectory — important for all internal links and assets)
-- **Blog route:** `/experiments` (configured via `routeBasePath` in `docusaurus.config.ts`)
+- **Rutas de contenido:** `/notes` (preset `classic`) y `/experiments` (segunda instancia de `plugin-content-docs`, no del plugin de blog), ambas vía `routeBasePath` en `docusaurus.config.ts`
+- **Redirecciones:** `@docusaurus/plugin-client-redirects` mantiene vivas las URLs antiguas `/notes/tools/ai-coding/*`. Si vuelves a mover notas, añade ahí la regla
 - **Search:** `@easyops-cn/docusaurus-search-local` with Spanish language indexing
 - **Broken links:** Configured to throw on broken internal links (`onBrokenLinks: 'throw'`)
 - **Code highlighting:** Dracula (dark) and GitHub (light) Prism themes
