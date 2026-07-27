@@ -13,7 +13,7 @@ Filosofía: **teoría la mínima indispensable**. Una nota existe para que se en
 - **`basics/`** — Conceptos transversales que no dependen de ninguna herramienta concreta (prompt engineering, fundamentos).
 - **`models/`** — Familias y tipos de modelo: panorama general, embeddings, comparativas por proveedor.
 - **`tools/`** — Herramientas concretas. Tiene tres subárboles:
-  - `tools/agents/coding/<herramienta>/` — agentes de programación (Claude Code, Codex, opencode).
+  - `tools/agents/coding/<herramienta>/` — agentes de programación (Claude Code, Codex, OpenCode).
   - `tools/agents/personal/<herramienta>/` — agentes de uso personal, no de programación (Hermes).
   - `tools/llm-runtimes/<herramienta>/` — runtimes y aplicaciones para ejecutar modelos en local (Ollama, LM Studio, Jan, llamafile, Msty, AnythingLLM, Open WebUI).
   - `tools/vector-databases/` — bases de datos vectoriales, un fichero por producto más `intro.md`.

@@ -4,6 +4,18 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// Los CLAUDE.md de las secciones de contenido son instrucciones para el agente,
+// no notas publicables: se excluyen del build (sus enlaces relativos al
+// repositorio romperían onBrokenLinks). Repite el `exclude` por defecto de
+// plugin-content-docs, porque la opción lo reemplaza en lugar de ampliarlo.
+const excludeFromDocs = [
+  '**/CLAUDE.md',
+  '**/_*.{js,jsx,ts,tsx,md,mdx}',
+  '**/_*/**',
+  '**/*.test.{js,jsx,ts,tsx}',
+  '**/__tests__/**',
+];
+
 const config: Config = {
   title: 'Dr. Falken\'s Notebook',
   tagline: 'Experimentos, ejemplos y pinceladas de IA aplicada',
@@ -49,15 +61,7 @@ const config: Config = {
           path: './notes',
           routeBasePath: '/notes',
           sidebarPath: './sidebars.ts',
-          // CLAUDE.md son instrucciones para el agente, no contenido publicable.
-          // `exclude` sustituye a los patrones por defecto, así que se repiten aquí.
-          exclude: [
-            '**/_*.{js,jsx,ts,tsx,md,mdx}',
-            '**/_*/**',
-            '**/*.test.{js,jsx,ts,tsx}',
-            '**/__tests__/**',
-            '**/CLAUDE.md',
-          ],
+          exclude: excludeFromDocs,
           editUrl:
             'https://github.com/falkenslab/falkens-notebook/edit/main/',
         },
@@ -104,6 +108,7 @@ const config: Config = {
         path: './experiments',
         routeBasePath: '/experiments',
         sidebarPath: './sidebars.ts',
+        exclude: excludeFromDocs,
         editUrl: 'https://github.com/falkenslab/falkens-notebook/edit/main/',
       },
     ],

@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Configuración
 
-Toda la configuración de opencode vive en ficheros `opencode.json` (también acepta JSONC, con comentarios). Empieza siempre por el `$schema`: da autocompletado y validación en el editor.
+Toda la configuración de OpenCode vive en ficheros `opencode.json` (también acepta JSONC, con comentarios). Empieza siempre por el `$schema`: da autocompletado y validación en el editor.
 
 ```json
 {
@@ -38,7 +38,7 @@ Lo habitual es dejar en el global el modelo, el tema y las claves personales, y 
 }
 ```
 
-`small_model` es el modelo barato que opencode usa para tareas auxiliares (títulos de sesión, resúmenes, compactación de contexto). Configurarlo bien es la optimización de coste más rentable.
+`small_model` es el modelo barato que OpenCode usa para tareas auxiliares (títulos de sesión, resúmenes, compactación de contexto). Configurarlo bien es la optimización de coste más rentable.
 
 ### Permisos y herramientas
 
@@ -127,7 +127,7 @@ Desde la CLI: `opencode mcp add`, `opencode mcp list`, `opencode mcp auth` (para
 }
 ```
 
-- `formatter` — opencode formatea automáticamente lo que edita si detecta el formateador del proyecto; aquí se desactiva o se personaliza.
+- `formatter` — OpenCode formatea automáticamente lo que edita si detecta el formateador del proyecto; aquí se desactiva o se personaliza.
 - `lsp` — usa los servidores de lenguaje para diagnósticos y navegación de símbolos.
 - `snapshot` — habilita los puntos de restauración de `/undo`.
 - `share` — `manual`, `auto` o `disabled`.
@@ -162,7 +162,7 @@ La apariencia va en un fichero aparte, `~/.config/opencode/tui.json`:
 
 ## Experimento: agente autónomo pero acotado en un repo
 
-**Contexto:** queremos que opencode itere solo sobre los tests sin pedir permiso a cada paso, pero sin poder tocar el historial de git ni borrar ficheros.
+**Contexto:** queremos que OpenCode itere solo sobre los tests sin pedir permiso a cada paso, pero sin poder tocar el historial de git ni borrar ficheros.
 
 `opencode.json` en la raíz del proyecto:
 
@@ -215,8 +215,8 @@ Permission required: git commit -m "fix(date): usar la zona horaria del usuario"
 
 ## Referencias
 
-- [opencode — Configuración](https://opencode.ai/docs/config/)
-- [opencode — Agentes](https://opencode.ai/docs/agents/)
-- [opencode — Permisos](https://opencode.ai/docs/permissions/)
-- [opencode — MCP](https://opencode.ai/docs/mcp-servers/)
+- [OpenCode — Configuración](https://opencode.ai/docs/config/)
+- [OpenCode — Agentes](https://opencode.ai/docs/agents/)
+- [OpenCode — Permisos](https://opencode.ai/docs/permissions/)
+- [OpenCode — MCP](https://opencode.ai/docs/mcp-servers/)
 - [Esquema JSON de configuración](https://opencode.ai/config.json)

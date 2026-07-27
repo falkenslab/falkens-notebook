@@ -106,4 +106,4 @@ def suma(lista):
 
 ## Secciones de esta guía
 
-- [Modelos de embeddings](./embeddings) — Modelos para búsqueda semántica y RAG
+- [Modelos de embeddings](/notes/models/embeddings) — Modelos para búsqueda semántica y RAG

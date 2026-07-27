@@ -54,7 +54,7 @@ Prompt: Resuelve esto paso a paso: si tengo 12 manzanas y doy 1/3...
 - Variante *zero-shot CoT*: añadir "Piensa paso a paso" al final del prompt sin dar ejemplos.
 - Variante *few-shot CoT*: incluir 2–3 ejemplos con razonamiento completo.
 
-Ver también: [Few-shot](#few-shot), [Zero-shot](#zero-shot), [Prompt Engineering](./basics/prompt-engineering).
+Ver también: [Few-shot](#few-shot), [Zero-shot](#zero-shot), [Prompt Engineering](/notes/basics/prompt-engineering).
 
 ### Chunking
 
@@ -106,7 +106,7 @@ Ver también: [Fine-tuning](#fine-tuning), [RLHF](#rlhf).
 
 Poner 1–3 ejemplos dentro del mensaje para que el modelo copie el estilo o el formato, sin tener que re‑entrenarlo.
 
-Ver también: [Zero-shot](#zero-shot), [Prompt Engineering](./basics/prompt-engineering).
+Ver también: [Zero-shot](#zero-shot), [Prompt Engineering](/notes/basics/prompt-engineering).
 
 ### Fine-tuning
 
@@ -256,13 +256,13 @@ El mensaje que enviamos al modelo con instrucciones, contexto y ejemplos.
 
 - Consejos: sé claro, indica pasos, muestra ejemplos y el formato deseado.
 
-Ver también: [Prompt Engineering](./basics/prompt-engineering), [Few-shot](#few-shot), [Chain of Thought](#chain-of-thought-cot).
+Ver también: [Prompt Engineering](/notes/basics/prompt-engineering), [Few-shot](#few-shot), [Chain of Thought](#chain-of-thought-cot).
 
 ### Prompt Engineering
 
 El arte de diseñar instrucciones efectivas para obtener los mejores resultados de un modelo de lenguaje.
 
-Ver la guía completa: [Prompt Engineering](./basics/prompt-engineering).
+Ver la guía completa: [Prompt Engineering](/notes/basics/prompt-engineering).
 
 ---
 
