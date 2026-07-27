@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Uso y características
 
-opencode abre una sesión interactiva en la terminal (TUI). Escribes en lenguaje natural lo que quieres y el agente lee ficheros, propone cambios, los aplica y ejecuta comandos según los permisos configurados.
+OpenCode abre una sesión interactiva en la terminal (TUI). Escribes en lenguaje natural lo que quieres y el agente lee ficheros, propone cambios, los aplica y ejecuta comandos según los permisos configurados.
 
 ```
 > añade validación al formulario de login para que el email sea obligatorio
@@ -12,7 +12,7 @@ opencode abre una sesión interactiva en la terminal (TUI). Escribes en lenguaje
 
 ## Agentes: Build y Plan
 
-La característica más visible de opencode es que trabaja con **agentes** conmutables con la tecla `Tab`:
+La característica más visible de OpenCode es que trabaja con **agentes** conmutables con la tecla `Tab`:
 
 | Agente | Tipo | Para qué sirve |
 |---|---|---|
@@ -35,7 +35,7 @@ Hay además tres agentes internos ocultos que se encargan de compactar el contex
 
 Comandos integrados: `/init`, `/connect`, `/models`, `/undo`, `/redo`, `/share`, `/help`.
 
-`/undo` y `/redo` son especialmente prácticos: opencode toma *snapshots* del árbol de trabajo, así que puedes revertir lo que ha hecho el agente sin depender de git.
+`/undo` y `/redo` son especialmente prácticos: OpenCode toma *snapshots* del árbol de trabajo, así que puedes revertir lo que ha hecho el agente sin depender de git.
 
 ### Comandos personalizados
 
@@ -75,7 +75,7 @@ Para trocear las reglas en varios ficheros, la clave `instructions` de `opencode
 
 ## Modo headless, servidor y web
 
-opencode separa motor y cliente, algo que lo diferencia del resto de agentes de terminal:
+OpenCode separa motor y cliente, algo que lo diferencia del resto de agentes de terminal:
 
 ```bash
 opencode run "corrige el lint de src/"        # no interactivo, para scripts y CI
@@ -101,7 +101,7 @@ El comando `/share` genera un enlace público con la conversación —muy cómod
 
 ## Experimento: plan primero, build después
 
-**Contexto:** el error más común al usar un agente es dejarle editar antes de haber acordado el enfoque. El modo `plan` de opencode fuerza ese paso sin necesidad de configurar nada.
+**Contexto:** el error más común al usar un agente es dejarle editar antes de haber acordado el enfoque. El modo `plan` de OpenCode fuerza ese paso sin necesidad de configurar nada.
 
 ```bash
 cd falkens-notebook
@@ -140,9 +140,9 @@ Pulsa Tab para cambiar a build y aplicar el plan.
 
 ## Referencias
 
-- [opencode — Agentes](https://opencode.ai/docs/agents/)
-- [opencode — Comandos personalizados](https://opencode.ai/docs/commands/)
-- [opencode — AGENTS.md](https://opencode.ai/docs/rules/)
-- [opencode — CLI](https://opencode.ai/docs/cli/)
+- [OpenCode — Agentes](https://opencode.ai/docs/agents/)
+- [OpenCode — Comandos personalizados](https://opencode.ai/docs/commands/)
+- [OpenCode — AGENTS.md](https://opencode.ai/docs/rules/)
+- [OpenCode — CLI](https://opencode.ai/docs/cli/)
 - [CLAUDE.md en Claude Code](/notes/tools/ai-coding/claude-code/claude-md)
 - [AGENTS.md en Codex CLI](/notes/tools/ai-coding/codex/agents-md)

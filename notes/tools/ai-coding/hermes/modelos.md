@@ -211,4 +211,4 @@ Salidas representativas, no ejecutadas en vivo. La cifra exacta de tokens del pr
 - [Instalación de Ollama](/notes/tools/llm-runtimes/ollama/instalacion)
 - [Modelfiles en Ollama](/notes/tools/llm-runtimes/ollama/modelos)
 - [LM Studio](/notes/tools/llm-runtimes/lmstudio/overview)
-- [Modelos remotos y locales en opencode](/notes/tools/ai-coding/opencode/modelos)
+- [Modelos remotos y locales en OpenCode](/notes/tools/ai-coding/opencode/modelos)

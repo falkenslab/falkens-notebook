@@ -7,7 +7,7 @@ sidebar_position: 1
 **[Hermes Agent](https://hermes-agent.nousresearch.com/)** es el agente open source (licencia MIT) de [Nous Research](https://nousresearch.com). Vive en esta sección porque ejecuta comandos, edita ficheros y trabaja sobre repositorios, pero conviene situarlo bien desde el principio.
 
 :::info Qué es y qué no es
-Hermes **no es un agente de programación** en el sentido de [Claude Code](/notes/tools/ai-coding/claude-code/instalacion), [Codex CLI](/notes/tools/ai-coding/codex/instalacion) u [opencode](/notes/tools/ai-coding/opencode/instalacion). Es un **agente personal persistente**: memoria de largo plazo entre sesiones, creación automática de *skills* reutilizables, planificador cron propio y conectores a Telegram, Discord, Slack, WhatsApp y Signal. Programar es una de las cosas que sabe hacer, no su razón de ser. La [comparativa](/notes/tools/ai-coding/hermes/comparativa) desarrolla dónde se solapa realmente con los agentes de código y dónde no.
+Hermes **no es un agente de programación** en el sentido de [Claude Code](/notes/tools/ai-coding/claude-code/instalacion), [Codex CLI](/notes/tools/ai-coding/codex/instalacion) u [OpenCode](/notes/tools/ai-coding/opencode/instalacion). Es un **agente personal persistente**: memoria de largo plazo entre sesiones, creación automática de *skills* reutilizables, planificador cron propio y conectores a Telegram, Discord, Slack, WhatsApp y Signal. Programar es una de las cosas que sabe hacer, no su razón de ser. La [comparativa](/notes/tools/ai-coding/hermes/comparativa) desarrolla dónde se solapa realmente con los agentes de código y dónde no.
 :::
 
 :::warning Cuidado con los dominios
@@ -104,4 +104,4 @@ Las salidas de los experimentos de esta sección son **representativas**: reflej
 - [Hermes Agent — Repositorio en GitHub](https://github.com/NousResearch/hermes-agent)
 - [Nous Research](https://nousresearch.com)
 - [Nous Portal](https://portal.nousresearch.com)
-- [Instalación de opencode](/notes/tools/ai-coding/opencode/instalacion)
+- [Instalación de OpenCode](/notes/tools/ai-coding/opencode/instalacion)

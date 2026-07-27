@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Ventajas, desventajas y comparativa
 
-Hermes aparece en esta sección junto a Claude Code, Codex CLI y opencode, pero **no compite con ellos**. Conviene entender dónde se solapan de verdad antes de elegir.
+Hermes aparece en esta sección junto a Claude Code, Codex CLI y OpenCode, pero **no compite con ellos**. Conviene entender dónde se solapan de verdad antes de elegir.
 
 ## El solape real
 
@@ -43,7 +43,7 @@ Lo que no comparte, y define su categoría:
 
 ## Comparativa
 
-| | **Hermes Agent** | **opencode** | **Claude Code** | **Codex CLI** |
+| | **Hermes Agent** | **OpenCode** | **Claude Code** | **Codex CLI** |
 |---|---|---|---|---|
 | Categoría | Agente personal | Agente de programación | Agente de programación | Agente de programación |
 | Licencia | Open source (MIT) | Open source (MIT) | Propietaria | Open source |
@@ -63,7 +63,7 @@ Lo que no comparte, y define su categoría:
 ## Cuándo usar cada uno
 
 - **Hermes** — cuando quieres un agente que *persista*: que recuerde tus proyectos, ejecute tareas programadas y esté disponible desde el móvil. Tareas de operación, informes, automatización doméstica o de infraestructura.
-- **opencode** — cuando el trabajo es código y necesitas elegir el modelo, incluido uno local. Ver [su comparativa](/notes/tools/ai-coding/opencode/comparativa).
+- **OpenCode** — cuando el trabajo es código y necesitas elegir el modelo, incluido uno local. Ver [su comparativa](/notes/tools/ai-coding/opencode/comparativa).
 - **Claude Code** — cuando quieres el mejor resultado en código con la mínima configuración.
 - **Codex CLI** — cuando tu equipo vive en el ecosistema de OpenAI.
 
@@ -86,7 +86,7 @@ hermes
 **Resultado:**
 
 ```
-# opencode
+# OpenCode
 $ grep -rL "## Referencias" notes --include=*.md
 notes/intro.md
 notes/tools/vector-databases/intro.md
@@ -110,7 +110,7 @@ Done in 22s
 2 notas sin referencias. Te aviso los lunes si aparecen nuevas.
 ```
 
-**Qué aprender:** la primera mitad de la tarea la resuelven igual —un `grep`—. La segunda mitad, "avísame cada lunes", opencode ni siquiera la contempla, porque no es lo suyo. Y Hermes, además de programar el cron, guardó el procedimiento como skill para reutilizarlo. Ahí está la frontera entre las dos categorías.
+**Qué aprender:** la primera mitad de la tarea la resuelven igual —un `grep`—. La segunda mitad, "avísame cada lunes", OpenCode ni siquiera la contempla, porque no es lo suyo. Y Hermes, además de programar el cron, guardó el procedimiento como skill para reutilizarlo. Ahí está la frontera entre las dos categorías.
 
 :::note
 Salidas representativas, no ejecutadas en vivo.
@@ -121,6 +121,6 @@ Salidas representativas, no ejecutadas en vivo.
 - [Hermes Agent — Sitio oficial](https://hermes-agent.nousresearch.com/)
 - [Hermes Agent — Repositorio en GitHub](https://github.com/NousResearch/hermes-agent)
 - [Nous Research](https://nousresearch.com)
-- [Ventajas, desventajas y comparativa de opencode](/notes/tools/ai-coding/opencode/comparativa)
+- [Ventajas, desventajas y comparativa de OpenCode](/notes/tools/ai-coding/opencode/comparativa)
 - [Claude Code — Documentación](https://docs.anthropic.com/es/docs/claude-code/overview)
 - [Codex CLI — Repositorio oficial](https://github.com/openai/codex)
